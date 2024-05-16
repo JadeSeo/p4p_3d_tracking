@@ -1,0 +1,29 @@
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/default/p4p/build/urdf_tm
+-- Install configuration: ""
+-- Installing: /home/default/p4p/install/urdf_tm/share/urdf_tm/launch
+-- Installing: /home/default/p4p/install/urdf_tm/share/urdf_tm/launch/display.launch.py
+-- Installing: /home/default/p4p/install/urdf_tm/share/urdf_tm/urdf
+-- Installing: /home/default/p4p/install/urdf_tm/share/urdf_tm/urdf/model.urdf
+-- Installing: /home/default/p4p/install/urdf_tm/share/ament_index/resource_index/package_run_dependencies/urdf_tm
+-- Up-to-date: /home/default/p4p/install/urdf_tm/share/ament_index/resource_index/parent_prefix_path/urdf_tm
+-- Up-to-date: /home/default/p4p/install/urdf_tm/share/urdf_tm/environment/ament_prefix_path.sh
+-- Installing: /home/default/p4p/install/urdf_tm/share/urdf_tm/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/default/p4p/install/urdf_tm/share/urdf_tm/environment/path.sh
+-- Installing: /home/default/p4p/install/urdf_tm/share/urdf_tm/environment/path.dsv
+-- Up-to-date: /home/default/p4p/install/urdf_tm/share/urdf_tm/local_setup.bash
+-- Up-to-date: /home/default/p4p/install/urdf_tm/share/urdf_tm/local_setup.sh
+-- Up-to-date: /home/default/p4p/install/urdf_tm/share/urdf_tm/local_setup.zsh
+-- Installing: /home/default/p4p/install/urdf_tm/share/urdf_tm/local_setup.dsv
+-- Installing: /home/default/p4p/install/urdf_tm/share/urdf_tm/package.dsv
+-- Up-to-date: /home/default/p4p/install/urdf_tm/share/ament_index/resource_index/packages/urdf_tm
+-- Up-to-date: /home/default/p4p/install/urdf_tm/share/urdf_tm/cmake/urdf_tmConfig.cmake
+-- Up-to-date: /home/default/p4p/install/urdf_tm/share/urdf_tm/cmake/urdf_tmConfig-version.cmake
+-- Installing: /home/default/p4p/install/urdf_tm/share/urdf_tm/package.xml

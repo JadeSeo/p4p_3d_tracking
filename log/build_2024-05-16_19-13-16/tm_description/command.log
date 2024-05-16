@@ -1,0 +1,6 @@
+Invoking command in '/home/default/p4p/build/tm_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/default/p4p/tmr_ros2/tm_description -DCMAKE_INSTALL_PREFIX=/home/default/p4p/install/tm_description
+Invoked command in '/home/default/p4p/build/tm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/default/p4p/tmr_ros2/tm_description -DCMAKE_INSTALL_PREFIX=/home/default/p4p/install/tm_description
+Invoking command in '/home/default/p4p/build/tm_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/default/p4p/build/tm_description -- -j2 -l2
+Invoked command in '/home/default/p4p/build/tm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/default/p4p/build/tm_description -- -j2 -l2
+Invoking command in '/home/default/p4p/build/tm_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/default/p4p/build/tm_description
+Invoked command in '/home/default/p4p/build/tm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/default/p4p/build/tm_description

@@ -1,0 +1,38 @@
+[0.094s] Invoking command in '/home/default/p4p/build/urdf_tm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/default/p4p/build/urdf_tm -- -j2 -l2
+[0.151s] Invoked command in '/home/default/p4p/build/urdf_tm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/default/p4p/build/urdf_tm -- -j2 -l2
+[0.192s] Invoking command in '/home/default/p4p/build/urdf_tm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/default/p4p/build/urdf_tm
+[0.201s] -- Install configuration: ""
+[0.202s] -- Up-to-date: /home/default/p4p/install/urdf_tm/share/urdf_tm/launch
+[0.202s] -- Up-to-date: /home/default/p4p/install/urdf_tm/share/urdf_tm/launch/display.launch.py
+[0.202s] -- Up-to-date: /home/default/p4p/install/urdf_tm/share/urdf_tm/urdf
+[0.202s] -- Up-to-date: /home/default/p4p/install/urdf_tm/share/urdf_tm/urdf/tm5-base_c.stl
+[0.202s] -- Up-to-date: /home/default/p4p/install/urdf_tm/share/urdf_tm/urdf/tm5-900_arm2_c.stl
+[0.202s] -- Up-to-date: /home/default/p4p/install/urdf_tm/share/urdf_tm/urdf/tmr_400w_01.obj
+[0.203s] -- Up-to-date: /home/default/p4p/install/urdf_tm/share/urdf_tm/urdf/tmr_100w_02.stl
+[0.203s] -- Up-to-date: /home/default/p4p/install/urdf_tm/share/urdf_tm/urdf/tm5-900_arm1_c.stl
+[0.203s] -- Up-to-date: /home/default/p4p/install/urdf_tm/share/urdf_tm/urdf/tmr_100w_01.stl
+[0.203s] -- Up-to-date: /home/default/p4p/install/urdf_tm/share/urdf_tm/urdf/tm5-base.obj
+[0.203s] -- Up-to-date: /home/default/p4p/install/urdf_tm/share/urdf_tm/urdf/tmr_ee_c.stl
+[0.203s] -- Installing: /home/default/p4p/install/urdf_tm/share/urdf_tm/urdf/model.urdf
+[0.204s] -- Up-to-date: /home/default/p4p/install/urdf_tm/share/urdf_tm/urdf/tm5-900_arm2.obj
+[0.204s] -- Up-to-date: /home/default/p4p/install/urdf_tm/share/urdf_tm/urdf/tmr_400w_01_c.stl
+[0.204s] -- Up-to-date: /home/default/p4p/install/urdf_tm/share/urdf_tm/urdf/tmr_ee.obj
+[0.204s] -- Up-to-date: /home/default/p4p/install/urdf_tm/share/urdf_tm/urdf/tmr_100w_01.obj
+[0.204s] -- Up-to-date: /home/default/p4p/install/urdf_tm/share/urdf_tm/urdf/tmr_100w_02.obj
+[0.205s] -- Up-to-date: /home/default/p4p/install/urdf_tm/share/urdf_tm/urdf/tm5-900_arm1.obj
+[0.205s] -- Up-to-date: /home/default/p4p/install/urdf_tm/share/ament_index/resource_index/package_run_dependencies/urdf_tm
+[0.205s] -- Up-to-date: /home/default/p4p/install/urdf_tm/share/ament_index/resource_index/parent_prefix_path/urdf_tm
+[0.205s] -- Up-to-date: /home/default/p4p/install/urdf_tm/share/urdf_tm/environment/ament_prefix_path.sh
+[0.206s] -- Up-to-date: /home/default/p4p/install/urdf_tm/share/urdf_tm/environment/ament_prefix_path.dsv
+[0.206s] -- Up-to-date: /home/default/p4p/install/urdf_tm/share/urdf_tm/environment/path.sh
+[0.206s] -- Up-to-date: /home/default/p4p/install/urdf_tm/share/urdf_tm/environment/path.dsv
+[0.206s] -- Up-to-date: /home/default/p4p/install/urdf_tm/share/urdf_tm/local_setup.bash
+[0.206s] -- Up-to-date: /home/default/p4p/install/urdf_tm/share/urdf_tm/local_setup.sh
+[0.206s] -- Up-to-date: /home/default/p4p/install/urdf_tm/share/urdf_tm/local_setup.zsh
+[0.207s] -- Up-to-date: /home/default/p4p/install/urdf_tm/share/urdf_tm/local_setup.dsv
+[0.207s] -- Installing: /home/default/p4p/install/urdf_tm/share/urdf_tm/package.dsv
+[0.207s] -- Up-to-date: /home/default/p4p/install/urdf_tm/share/ament_index/resource_index/packages/urdf_tm
+[0.207s] -- Up-to-date: /home/default/p4p/install/urdf_tm/share/urdf_tm/cmake/urdf_tmConfig.cmake
+[0.207s] -- Up-to-date: /home/default/p4p/install/urdf_tm/share/urdf_tm/cmake/urdf_tmConfig-version.cmake
+[0.207s] -- Up-to-date: /home/default/p4p/install/urdf_tm/share/urdf_tm/package.xml
+[0.210s] Invoked command in '/home/default/p4p/build/urdf_tm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/default/p4p/build/urdf_tm

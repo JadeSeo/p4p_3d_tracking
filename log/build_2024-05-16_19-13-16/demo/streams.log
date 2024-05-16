@@ -1,0 +1,138 @@
+[0.181s] Invoking command in '/home/default/p4p/build/demo': AMENT_PREFIX_PATH=/home/default/p4p/install/tm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/default/p4p/install/tm_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/default/p4p/install/tm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/default/p4p/install/tm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/default/p4p/tmr_ros2/demo -DCMAKE_INSTALL_PREFIX=/home/default/p4p/install/demo
+[0.274s] -- The C compiler identification is GNU 11.4.0
+[0.372s] -- The CXX compiler identification is GNU 11.4.0
+[0.384s] -- Detecting C compiler ABI info
+[0.484s] -- Detecting C compiler ABI info - done
+[0.504s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.504s] -- Detecting C compile features
+[0.505s] -- Detecting C compile features - done
+[0.510s] -- Detecting CXX compiler ABI info
+[0.633s] -- Detecting CXX compiler ABI info - done
+[0.655s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.655s] -- Detecting CXX compile features
+[0.657s] -- Detecting CXX compile features - done
+[0.659s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.892s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.022s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.093s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.101s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.116s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.145s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.183s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.326s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.330s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.500s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.542s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.633s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.651s] -- Looking for pthread.h
+[1.761s] -- Looking for pthread.h - found
+[1.762s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.870s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.872s] -- Found Threads: TRUE  
+[2.227s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.510s] -- Found tm_msgs: 1.1.2 (/home/default/p4p/install/tm_msgs/share/tm_msgs/cmake)
+[2.609s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.785s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.787s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.790s] -- Configured cppcheck include dirs: /home/default/p4p/tmr_ros2/demo/include
+[2.790s] -- Configured cppcheck exclude dirs and/or files: 
+[2.792s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.792s] -- Configured cpplint exclude dirs and/or files: 
+[2.793s] -- Added test 'lint_cmake' to check CMake code style
+[2.795s] -- Added test 'uncrustify' to check C / C++ code style
+[2.795s] -- Configured uncrustify additional arguments: 
+[2.795s] -- Added test 'xmllint' to check XML markup files
+[2.797s] -- Configuring done
+[2.897s] -- Generating done
+[2.902s] -- Build files have been written to: /home/default/p4p/build/demo
+[2.917s] Invoked command in '/home/default/p4p/build/demo' returned '0': AMENT_PREFIX_PATH=/home/default/p4p/install/tm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/default/p4p/install/tm_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/default/p4p/install/tm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/default/p4p/install/tm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/default/p4p/tmr_ros2/demo -DCMAKE_INSTALL_PREFIX=/home/default/p4p/install/demo
+[2.918s] Invoking command in '/home/default/p4p/build/demo': AMENT_PREFIX_PATH=/home/default/p4p/install/tm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/default/p4p/install/tm_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/default/p4p/install/tm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/default/p4p/install/tm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/default/p4p/build/demo -- -j2 -l2
+[2.987s] [  3%] [32mBuilding CXX object CMakeFiles/demo_send_script.dir/src/demo_send_script.cpp.o[0m
+[8.584s] [  7%] [32m[1mLinking CXX executable demo_send_script[0m
+[8.843s] [  7%] Built target demo_send_script
+[8.870s] [ 10%] [32mBuilding CXX object CMakeFiles/demo_ask_sta.dir/src/demo_ask_sta.cpp.o[0m
+[14.505s] [ 14%] [32m[1mLinking CXX executable demo_ask_sta[0m
+[14.757s] [ 14%] Built target demo_ask_sta
+[14.783s] [ 17%] [32mBuilding CXX object CMakeFiles/demo_connect_tm.dir/src/demo_connect_tm.cpp.o[0m
+[20.464s] [ 21%] [32m[1mLinking CXX executable demo_connect_tm[0m
+[20.774s] [ 21%] Built target demo_connect_tm
+[20.807s] [ 25%] [32mBuilding CXX object CMakeFiles/demo_set_event.dir/src/demo_set_event.cpp.o[0m
+[26.566s] [ 28%] [32m[1mLinking CXX executable demo_set_event[0m
+[26.864s] [ 28%] Built target demo_set_event
+[26.894s] [ 32%] [32mBuilding CXX object CMakeFiles/demo_set_io.dir/src/demo_set_io.cpp.o[0m
+[32.543s] [ 35%] [32m[1mLinking CXX executable demo_set_io[0m
+[32.805s] [ 35%] Built target demo_set_io
+[32.835s] [ 39%] [32mBuilding CXX object CMakeFiles/demo_set_positions.dir/src/demo_set_positions.cpp.o[0m
+[38.673s] [ 42%] [32m[1mLinking CXX executable demo_set_positions[0m
+[38.931s] [ 42%] Built target demo_set_positions
+[38.963s] [ 46%] [32mBuilding CXX object CMakeFiles/demo_write_item.dir/src/demo_write_item.cpp.o[0m
+[44.620s] [ 50%] [32m[1mLinking CXX executable demo_write_item[0m
+[44.881s] [ 50%] Built target demo_write_item
+[44.911s] [ 53%] [32mBuilding CXX object CMakeFiles/demo_ask_item.dir/src/demo_ask_item.cpp.o[0m
+[50.640s] [ 57%] [32m[1mLinking CXX executable demo_ask_item[0m
+[50.905s] [ 57%] Built target demo_ask_item
+[50.933s] [ 60%] [32mBuilding CXX object CMakeFiles/demo_get_feedback.dir/get_status_demo_src/demo_get_feedback.cpp.o[0m
+[64.053s] [ 64%] [32m[1mLinking CXX executable demo_get_feedback[0m
+[64.699s] [ 64%] Built target demo_get_feedback
+[64.729s] [ 67%] [32mBuilding CXX object CMakeFiles/demo_get_torque_feedback.dir/get_status_demo_src/demo_get_torque_feedback.cpp.o[0m
+[77.809s] [ 71%] [32m[1mLinking CXX executable demo_get_torque_feedback[0m
+[78.448s] [ 71%] Built target demo_get_torque_feedback
+[78.476s] [ 75%] [32mBuilding CXX object CMakeFiles/demo_get_sct_response.dir/get_status_demo_src/demo_get_sct_response.cpp.o[0m
+[91.283s] [ 78%] [32m[1mLinking CXX executable demo_get_sct_response[0m
+[91.928s] [ 78%] Built target demo_get_sct_response
+[91.957s] [ 82%] [32mBuilding CXX object CMakeFiles/demo_get_sta_response.dir/get_status_demo_src/demo_get_sta_response.cpp.o[0m
+[104.680s] [ 85%] [32m[1mLinking CXX executable demo_get_sta_response[0m
+[105.325s] [ 85%] Built target demo_get_sta_response
+[105.352s] [ 89%] [32mBuilding CXX object CMakeFiles/demo_get_svr_response.dir/get_status_demo_src/demo_get_svr_response.cpp.o[0m
+[117.965s] [ 92%] [32m[1mLinking CXX executable demo_get_svr_response[0m
+[118.632s] [ 92%] Built target demo_get_svr_response
+[118.660s] [ 96%] [32mBuilding CXX object CMakeFiles/demo_leave_listen_node.dir/src/demo_leave_listen_node.cpp.o[0m
+[124.349s] [100%] [32m[1mLinking CXX executable demo_leave_listen_node[0m
+[124.611s] [100%] Built target demo_leave_listen_node
+[124.628s] Invoked command in '/home/default/p4p/build/demo' returned '0': AMENT_PREFIX_PATH=/home/default/p4p/install/tm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/default/p4p/install/tm_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/default/p4p/install/tm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/default/p4p/install/tm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/default/p4p/build/demo -- -j2 -l2
+[124.712s] Invoking command in '/home/default/p4p/build/demo': AMENT_PREFIX_PATH=/home/default/p4p/install/tm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/default/p4p/install/tm_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/default/p4p/install/tm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/default/p4p/install/tm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/default/p4p/build/demo
+[124.722s] -- Install configuration: ""
+[124.722s] -- Installing: /home/default/p4p/install/demo/lib/demo/demo_send_script
+[124.724s] -- Set runtime path of "/home/default/p4p/install/demo/lib/demo/demo_send_script" to ""
+[124.724s] -- Installing: /home/default/p4p/install/demo/lib/demo/demo_ask_sta
+[124.725s] -- Set runtime path of "/home/default/p4p/install/demo/lib/demo/demo_ask_sta" to ""
+[124.726s] -- Installing: /home/default/p4p/install/demo/lib/demo/demo_connect_tm
+[124.727s] -- Set runtime path of "/home/default/p4p/install/demo/lib/demo/demo_connect_tm" to ""
+[124.728s] -- Installing: /home/default/p4p/install/demo/lib/demo/demo_set_event
+[124.729s] -- Set runtime path of "/home/default/p4p/install/demo/lib/demo/demo_set_event" to ""
+[124.729s] -- Installing: /home/default/p4p/install/demo/lib/demo/demo_set_io
+[124.730s] -- Set runtime path of "/home/default/p4p/install/demo/lib/demo/demo_set_io" to ""
+[124.731s] -- Installing: /home/default/p4p/install/demo/lib/demo/demo_set_positions
+[124.732s] -- Set runtime path of "/home/default/p4p/install/demo/lib/demo/demo_set_positions" to ""
+[124.732s] -- Installing: /home/default/p4p/install/demo/lib/demo/demo_write_item
+[124.734s] -- Set runtime path of "/home/default/p4p/install/demo/lib/demo/demo_write_item" to ""
+[124.734s] -- Installing: /home/default/p4p/install/demo/lib/demo/demo_ask_item
+[124.735s] -- Set runtime path of "/home/default/p4p/install/demo/lib/demo/demo_ask_item" to ""
+[124.736s] -- Installing: /home/default/p4p/install/demo/lib/demo/demo_get_feedback
+[124.740s] -- Set runtime path of "/home/default/p4p/install/demo/lib/demo/demo_get_feedback" to ""
+[124.740s] -- Installing: /home/default/p4p/install/demo/lib/demo/demo_get_torque_feedback
+[124.745s] -- Set runtime path of "/home/default/p4p/install/demo/lib/demo/demo_get_torque_feedback" to ""
+[124.745s] -- Installing: /home/default/p4p/install/demo/lib/demo/demo_get_sct_response
+[124.750s] -- Set runtime path of "/home/default/p4p/install/demo/lib/demo/demo_get_sct_response" to ""
+[124.750s] -- Installing: /home/default/p4p/install/demo/lib/demo/demo_get_sta_response
+[124.754s] -- Set runtime path of "/home/default/p4p/install/demo/lib/demo/demo_get_sta_response" to ""
+[124.755s] -- Installing: /home/default/p4p/install/demo/lib/demo/demo_get_svr_response
+[124.759s] -- Set runtime path of "/home/default/p4p/install/demo/lib/demo/demo_get_svr_response" to ""
+[124.759s] -- Installing: /home/default/p4p/install/demo/lib/demo/demo_leave_listen_node
+[124.761s] -- Set runtime path of "/home/default/p4p/install/demo/lib/demo/demo_leave_listen_node" to ""
+[124.761s] -- Installing: /home/default/p4p/install/demo/share/ament_index/resource_index/package_run_dependencies/demo
+[124.761s] -- Installing: /home/default/p4p/install/demo/share/ament_index/resource_index/parent_prefix_path/demo
+[124.761s] -- Installing: /home/default/p4p/install/demo/share/demo/environment/ament_prefix_path.sh
+[124.762s] -- Installing: /home/default/p4p/install/demo/share/demo/environment/ament_prefix_path.dsv
+[124.762s] -- Installing: /home/default/p4p/install/demo/share/demo/environment/path.sh
+[124.762s] -- Installing: /home/default/p4p/install/demo/share/demo/environment/path.dsv
+[124.762s] -- Installing: /home/default/p4p/install/demo/share/demo/local_setup.bash
+[124.763s] -- Installing: /home/default/p4p/install/demo/share/demo/local_setup.sh
+[124.763s] -- Installing: /home/default/p4p/install/demo/share/demo/local_setup.zsh
+[124.763s] -- Installing: /home/default/p4p/install/demo/share/demo/local_setup.dsv
+[124.763s] -- Installing: /home/default/p4p/install/demo/share/demo/package.dsv
+[124.764s] -- Installing: /home/default/p4p/install/demo/share/ament_index/resource_index/packages/demo
+[124.764s] -- Installing: /home/default/p4p/install/demo/share/demo/cmake/demoConfig.cmake
+[124.764s] -- Installing: /home/default/p4p/install/demo/share/demo/cmake/demoConfig-version.cmake
+[124.764s] -- Installing: /home/default/p4p/install/demo/share/demo/package.xml
+[124.768s] Invoked command in '/home/default/p4p/build/demo' returned '0': AMENT_PREFIX_PATH=/home/default/p4p/install/tm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/default/p4p/install/tm_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/default/p4p/install/tm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/default/p4p/install/tm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/default/p4p/build/demo

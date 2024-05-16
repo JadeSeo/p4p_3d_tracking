@@ -1,0 +1,17 @@
+{
+  "package_name": "tm_msgs",
+  "non_idl_tuples": [
+    "/home/default/p4p/tmr_ros2/tm_msgs:msg/FeedbackState.msg",
+    "/home/default/p4p/tmr_ros2/tm_msgs:msg/SvrResponse.msg",
+    "/home/default/p4p/tmr_ros2/tm_msgs:msg/SctResponse.msg",
+    "/home/default/p4p/tmr_ros2/tm_msgs:msg/StaResponse.msg",
+    "/home/default/p4p/tmr_ros2/tm_msgs:srv/ConnectTM.srv",
+    "/home/default/p4p/tmr_ros2/tm_msgs:srv/WriteItem.srv",
+    "/home/default/p4p/tmr_ros2/tm_msgs:srv/AskItem.srv",
+    "/home/default/p4p/tmr_ros2/tm_msgs:srv/SendScript.srv",
+    "/home/default/p4p/tmr_ros2/tm_msgs:srv/SetEvent.srv",
+    "/home/default/p4p/tmr_ros2/tm_msgs:srv/SetIO.srv",
+    "/home/default/p4p/tmr_ros2/tm_msgs:srv/SetPositions.srv",
+    "/home/default/p4p/tmr_ros2/tm_msgs:srv/AskSta.srv"
+  ]
+}
