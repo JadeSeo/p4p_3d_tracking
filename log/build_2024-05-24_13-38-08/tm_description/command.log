@@ -1,0 +1,4 @@
+Invoking command in '/home/jetson/p4p/build/tm_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jetson/p4p/build/tm_description -- -j4 -l4
+Invoked command in '/home/jetson/p4p/build/tm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jetson/p4p/build/tm_description -- -j4 -l4
+Invoking command in '/home/jetson/p4p/build/tm_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jetson/p4p/build/tm_description
+Invoked command in '/home/jetson/p4p/build/tm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jetson/p4p/build/tm_description

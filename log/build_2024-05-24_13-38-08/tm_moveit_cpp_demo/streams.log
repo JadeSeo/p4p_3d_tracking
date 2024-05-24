@@ -1,0 +1,34 @@
+[0.121s] Invoking command in '/home/jetson/p4p/build/tm_moveit_cpp_demo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jetson/p4p/build/tm_moveit_cpp_demo -- -j4 -l4
+[0.485s] Invoked command in '/home/jetson/p4p/build/tm_moveit_cpp_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jetson/p4p/build/tm_moveit_cpp_demo -- -j4 -l4
+[0.776s] Invoking command in '/home/jetson/p4p/build/tm_moveit_cpp_demo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jetson/p4p/build/tm_moveit_cpp_demo
+[0.891s] -- Install configuration: ""
+[0.894s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/launch
+[0.896s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/launch/tm5x-900_run_moveit_cpp.launch.py
+[0.896s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/launch/run_moveit_cpp.launch.py
+[0.897s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/launch/tm14x_run_moveit_cpp.launch.py
+[0.898s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/launch/tm5-900_run_moveit_cpp.launch.py
+[0.899s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/launch/run_moveit_cpp.rviz
+[0.900s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/launch/tm5x-700_run_moveit_cpp.launch.py
+[0.901s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/launch/tm14_run_moveit_cpp.launch.py
+[0.902s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/launch/tm5-700_run_moveit_cpp.launch.py
+[0.903s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/launch/tm12_run_moveit_cpp.launch.py
+[0.904s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/launch/tm12x_run_moveit_cpp.launch.py
+[0.905s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/config
+[0.919s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/config/moveit_cpp.yaml
+[0.920s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/config/controllers.yaml
+[0.921s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_cpp_demo/share/ament_index/resource_index/package_run_dependencies/tm_moveit_cpp_demo
+[0.923s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_cpp_demo/share/ament_index/resource_index/parent_prefix_path/tm_moveit_cpp_demo
+[0.924s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/environment/ament_prefix_path.sh
+[0.925s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/environment/ament_prefix_path.dsv
+[0.926s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/environment/path.sh
+[0.927s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/environment/path.dsv
+[0.929s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/local_setup.bash
+[0.930s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/local_setup.sh
+[0.932s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/local_setup.zsh
+[0.933s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/local_setup.dsv
+[0.935s] -- Installing: /home/jetson/p4p/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/package.dsv
+[0.936s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_cpp_demo/share/ament_index/resource_index/packages/tm_moveit_cpp_demo
+[0.939s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/cmake/tm_moveit_cpp_demoConfig.cmake
+[0.940s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/cmake/tm_moveit_cpp_demoConfig-version.cmake
+[0.941s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/package.xml
+[0.955s] Invoked command in '/home/jetson/p4p/build/tm_moveit_cpp_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jetson/p4p/build/tm_moveit_cpp_demo

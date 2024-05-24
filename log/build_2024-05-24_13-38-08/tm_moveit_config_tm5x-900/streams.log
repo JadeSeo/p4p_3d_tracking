@@ -1,0 +1,30 @@
+[0.146s] Invoking command in '/home/jetson/p4p/build/tm_moveit_config_tm5x-900': AMENT_PREFIX_PATH=/home/jetson/p4p/install/tm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/p4p/install/tm_description:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/p4p/build/tm_moveit_config_tm5x-900 -- -j4 -l4
+[0.596s] Invoked command in '/home/jetson/p4p/build/tm_moveit_config_tm5x-900' returned '0': AMENT_PREFIX_PATH=/home/jetson/p4p/install/tm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/p4p/install/tm_description:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/p4p/build/tm_moveit_config_tm5x-900 -- -j4 -l4
+[0.968s] Invoking command in '/home/jetson/p4p/build/tm_moveit_config_tm5x-900': AMENT_PREFIX_PATH=/home/jetson/p4p/install/tm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/p4p/install/tm_description:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/p4p/build/tm_moveit_config_tm5x-900
+[1.054s] -- Install configuration: ""
+[1.054s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_config_tm5x-900/share/ament_index/resource_index/package_run_dependencies/tm_moveit_config_tm5x-900
+[1.055s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_config_tm5x-900/share/ament_index/resource_index/parent_prefix_path/tm_moveit_config_tm5x-900
+[1.055s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_config_tm5x-900/share/tm_moveit_config_tm5x-900/environment/ament_prefix_path.sh
+[1.056s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_config_tm5x-900/share/tm_moveit_config_tm5x-900/environment/ament_prefix_path.dsv
+[1.056s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_config_tm5x-900/share/tm_moveit_config_tm5x-900/environment/path.sh
+[1.056s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_config_tm5x-900/share/tm_moveit_config_tm5x-900/environment/path.dsv
+[1.057s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_config_tm5x-900/share/tm_moveit_config_tm5x-900/local_setup.bash
+[1.058s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_config_tm5x-900/share/tm_moveit_config_tm5x-900/local_setup.sh
+[1.059s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_config_tm5x-900/share/tm_moveit_config_tm5x-900/local_setup.zsh
+[1.060s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_config_tm5x-900/share/tm_moveit_config_tm5x-900/local_setup.dsv
+[1.060s] -- Installing: /home/jetson/p4p/install/tm_moveit_config_tm5x-900/share/tm_moveit_config_tm5x-900/package.dsv
+[1.061s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_config_tm5x-900/share/ament_index/resource_index/packages/tm_moveit_config_tm5x-900
+[1.061s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_config_tm5x-900/share/tm_moveit_config_tm5x-900/cmake/tm_moveit_config_tm5x-900Config.cmake
+[1.061s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_config_tm5x-900/share/tm_moveit_config_tm5x-900/cmake/tm_moveit_config_tm5x-900Config-version.cmake
+[1.062s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_config_tm5x-900/share/tm_moveit_config_tm5x-900/package.xml
+[1.062s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_config_tm5x-900/share/tm_moveit_config_tm5x-900/config
+[1.062s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_config_tm5x-900/share/tm_moveit_config_tm5x-900/config/chomp_planning.yaml
+[1.063s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_config_tm5x-900/share/tm_moveit_config_tm5x-900/config/joint_limits.yaml
+[1.063s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_config_tm5x-900/share/tm_moveit_config_tm5x-900/config/tm5x-900.srdf
+[1.063s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_config_tm5x-900/share/tm_moveit_config_tm5x-900/config/ros_controllers.yaml
+[1.064s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_config_tm5x-900/share/tm_moveit_config_tm5x-900/config/stomp_planning.yaml
+[1.064s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_config_tm5x-900/share/tm_moveit_config_tm5x-900/config/fake_controllers.yaml
+[1.064s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_config_tm5x-900/share/tm_moveit_config_tm5x-900/config/ompl_planning.yaml
+[1.064s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_config_tm5x-900/share/tm_moveit_config_tm5x-900/config/kinematics.yaml
+[1.081s] -- Up-to-date: /home/jetson/p4p/install/tm_moveit_config_tm5x-900/share/tm_moveit_config_tm5x-900/config/sensors_3d.yaml
+[1.176s] Invoked command in '/home/jetson/p4p/build/tm_moveit_config_tm5x-900' returned '0': AMENT_PREFIX_PATH=/home/jetson/p4p/install/tm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/p4p/install/tm_description:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/p4p/build/tm_moveit_config_tm5x-900

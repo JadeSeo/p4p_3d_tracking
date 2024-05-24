@@ -1,0 +1,28 @@
+[3.490s] Invoking command in '/home/jetson/p4p/tmr_ros2/techman_robot_get_status': PYTHONPATH=/home/jetson/p4p/build/tm_get_status/prefix_override:/home/jetson/p4p/install/tm_get_status/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tm_get_status build --build-base /home/jetson/p4p/build/tm_get_status/build install --record /home/jetson/p4p/build/tm_get_status/install.log --single-version-externally-managed install_data
+[4.525s] running egg_info
+[4.536s] writing ../../build/tm_get_status/tm_get_status.egg-info/PKG-INFO
+[4.537s] writing dependency_links to ../../build/tm_get_status/tm_get_status.egg-info/dependency_links.txt
+[4.543s] writing entry points to ../../build/tm_get_status/tm_get_status.egg-info/entry_points.txt
+[4.544s] writing requirements to ../../build/tm_get_status/tm_get_status.egg-info/requires.txt
+[4.545s] writing top-level names to ../../build/tm_get_status/tm_get_status.egg-info/top_level.txt
+[4.701s] reading manifest file '../../build/tm_get_status/tm_get_status.egg-info/SOURCES.txt'
+[4.705s] writing manifest file '../../build/tm_get_status/tm_get_status.egg-info/SOURCES.txt'
+[4.705s] running build
+[4.706s] running build_py
+[4.713s] running install
+[4.716s] running install_lib
+[4.720s] copying /home/jetson/p4p/build/tm_get_status/build/lib/tm_get_status/translate_jason_to_list.py -> /home/jetson/p4p/install/tm_get_status/lib/python3.8/site-packages/tm_get_status
+[4.721s] copying /home/jetson/p4p/build/tm_get_status/build/lib/tm_get_status/get_status.py -> /home/jetson/p4p/install/tm_get_status/lib/python3.8/site-packages/tm_get_status
+[4.724s] copying /home/jetson/p4p/build/tm_get_status/build/lib/tm_get_status/image_pub.py -> /home/jetson/p4p/install/tm_get_status/lib/python3.8/site-packages/tm_get_status
+[4.726s] byte-compiling /home/jetson/p4p/install/tm_get_status/lib/python3.8/site-packages/tm_get_status/translate_jason_to_list.py to translate_jason_to_list.cpython-38.pyc
+[4.737s] byte-compiling /home/jetson/p4p/install/tm_get_status/lib/python3.8/site-packages/tm_get_status/get_status.py to get_status.cpython-38.pyc
+[4.743s] byte-compiling /home/jetson/p4p/install/tm_get_status/lib/python3.8/site-packages/tm_get_status/image_pub.py to image_pub.cpython-38.pyc
+[4.748s] running install_data
+[4.749s] running install_egg_info
+[4.757s] removing '/home/jetson/p4p/install/tm_get_status/lib/python3.8/site-packages/tm_get_status-1.0.0-py3.8.egg-info' (and everything under it)
+[4.760s] Copying ../../build/tm_get_status/tm_get_status.egg-info to /home/jetson/p4p/install/tm_get_status/lib/python3.8/site-packages/tm_get_status-1.0.0-py3.8.egg-info
+[4.764s] running install_scripts
+[4.838s] Installing image_talker script to /home/jetson/p4p/install/tm_get_status/lib/tm_get_status
+[4.838s] Installing status_talker script to /home/jetson/p4p/install/tm_get_status/lib/tm_get_status
+[4.846s] writing list of installed files to '/home/jetson/p4p/build/tm_get_status/install.log'
+[4.952s] Invoked command in '/home/jetson/p4p/tmr_ros2/techman_robot_get_status' returned '0': PYTHONPATH=/home/jetson/p4p/build/tm_get_status/prefix_override:/home/jetson/p4p/install/tm_get_status/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tm_get_status build --build-base /home/jetson/p4p/build/tm_get_status/build install --record /home/jetson/p4p/build/tm_get_status/install.log --single-version-externally-managed install_data

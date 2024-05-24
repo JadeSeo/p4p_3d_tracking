@@ -1,0 +1,4 @@
+Invoking command in '/home/jetson/p4p/build/tm_moveit_cpp_demo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jetson/p4p/build/tm_moveit_cpp_demo -- -j4 -l4
+Invoked command in '/home/jetson/p4p/build/tm_moveit_cpp_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jetson/p4p/build/tm_moveit_cpp_demo -- -j4 -l4
+Invoking command in '/home/jetson/p4p/build/tm_moveit_cpp_demo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jetson/p4p/build/tm_moveit_cpp_demo
+Invoked command in '/home/jetson/p4p/build/tm_moveit_cpp_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jetson/p4p/build/tm_moveit_cpp_demo

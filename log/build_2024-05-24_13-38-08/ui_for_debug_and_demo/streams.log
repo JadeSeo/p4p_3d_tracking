@@ -1,0 +1,61 @@
+[0.149s] Invoking command in '/home/jetson/p4p/build/ui_for_debug_and_demo': AMENT_PREFIX_PATH=/home/jetson/p4p/install/tm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/p4p/install/tm_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/p4p/install/tm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/p4p/install/tm_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jetson/p4p/build/ui_for_debug_and_demo -- -j4 -l4
+[0.272s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.375s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.219s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.357s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.372s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.863s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.070s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.075s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.623s] -- Found rclcpp_action: 2.4.3 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[2.896s] -- Found ament_index_cpp: 1.1.0 (/opt/ros/foxy/share/ament_index_cpp/cmake)
+[2.904s] -- Found tm_msgs: 1.1.2 (/home/jetson/p4p/install/tm_msgs/share/tm_msgs/cmake)
+[3.069s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.388s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.391s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.396s] -- Configured cppcheck include dirs: 
+[3.396s] -- Configured cppcheck exclude dirs and/or files: 
+[3.401s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.401s] -- Configured cpplint exclude dirs and/or files: 
+[3.403s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.405s] -- Added test 'lint_cmake' to check CMake code style
+[3.406s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.410s] -- Added test 'uncrustify' to check C / C++ code style
+[3.411s] -- Configured uncrustify additional arguments: 
+[3.413s] -- Added test 'xmllint' to check XML markup files
+[3.432s] -- Configuring done
+[3.563s] -- Generating done
+[3.576s] -- Build files have been written to: /home/jetson/p4p/build/ui_for_debug_and_demo
+[3.691s] [35m[1mScanning dependencies of target robot_ui_autogen[0m
+[3.749s] [ 14%] [34m[1mAutomatic MOC and UIC for target robot_ui[0m
+[3.827s] [ 14%] Built target robot_ui_autogen
+[3.896s] [35m[1mScanning dependencies of target robot_ui[0m
+[4.488s] [ 28%] [32mBuilding CXX object CMakeFiles/robot_ui.dir/robot_ui_autogen/mocs_compilation.cpp.o[0m
+[4.507s] [ 42%] [32mBuilding CXX object CMakeFiles/robot_ui.dir/src/ros_page.cpp.o[0m
+[4.528s] [ 57%] [32mBuilding CXX object CMakeFiles/robot_ui.dir/src/tm_ros_driver_windows.cpp.o[0m
+[4.560s] [ 71%] [32mBuilding CXX object CMakeFiles/robot_ui.dir/src/main.cpp.o[0m
+[68.060s] [ 85%] [32m[1mLinking CXX executable robot_ui[0m
+[70.876s] [100%] Built target robot_ui
+[70.926s] Invoked command in '/home/jetson/p4p/build/ui_for_debug_and_demo' returned '0': AMENT_PREFIX_PATH=/home/jetson/p4p/install/tm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/p4p/install/tm_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/p4p/install/tm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/p4p/install/tm_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jetson/p4p/build/ui_for_debug_and_demo -- -j4 -l4
+[71.067s] Invoking command in '/home/jetson/p4p/build/ui_for_debug_and_demo': AMENT_PREFIX_PATH=/home/jetson/p4p/install/tm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/p4p/install/tm_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/p4p/install/tm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/p4p/install/tm_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jetson/p4p/build/ui_for_debug_and_demo
+[71.104s] -- Install configuration: ""
+[71.106s] -- Installing: /home/jetson/p4p/install/ui_for_debug_and_demo/lib/ui_for_debug_and_demo/robot_ui
+[71.145s] -- Set runtime path of "/home/jetson/p4p/install/ui_for_debug_and_demo/lib/ui_for_debug_and_demo/robot_ui" to ""
+[71.147s] -- Up-to-date: /home/jetson/p4p/install/ui_for_debug_and_demo/share/ui_for_debug_and_demo/launch
+[71.147s] -- Up-to-date: /home/jetson/p4p/install/ui_for_debug_and_demo/share/ui_for_debug_and_demo/launch/tm_gui.launch.py
+[71.148s] -- Up-to-date: /home/jetson/p4p/install/ui_for_debug_and_demo/share/ament_index/resource_index/package_run_dependencies/ui_for_debug_and_demo
+[71.148s] -- Up-to-date: /home/jetson/p4p/install/ui_for_debug_and_demo/share/ament_index/resource_index/parent_prefix_path/ui_for_debug_and_demo
+[71.149s] -- Up-to-date: /home/jetson/p4p/install/ui_for_debug_and_demo/share/ui_for_debug_and_demo/environment/ament_prefix_path.sh
+[71.149s] -- Installing: /home/jetson/p4p/install/ui_for_debug_and_demo/share/ui_for_debug_and_demo/environment/ament_prefix_path.dsv
+[71.150s] -- Up-to-date: /home/jetson/p4p/install/ui_for_debug_and_demo/share/ui_for_debug_and_demo/environment/path.sh
+[71.151s] -- Installing: /home/jetson/p4p/install/ui_for_debug_and_demo/share/ui_for_debug_and_demo/environment/path.dsv
+[71.151s] -- Up-to-date: /home/jetson/p4p/install/ui_for_debug_and_demo/share/ui_for_debug_and_demo/local_setup.bash
+[71.152s] -- Up-to-date: /home/jetson/p4p/install/ui_for_debug_and_demo/share/ui_for_debug_and_demo/local_setup.sh
+[71.154s] -- Up-to-date: /home/jetson/p4p/install/ui_for_debug_and_demo/share/ui_for_debug_and_demo/local_setup.zsh
+[71.155s] -- Installing: /home/jetson/p4p/install/ui_for_debug_and_demo/share/ui_for_debug_and_demo/local_setup.dsv
+[71.155s] -- Installing: /home/jetson/p4p/install/ui_for_debug_and_demo/share/ui_for_debug_and_demo/package.dsv
+[71.155s] -- Up-to-date: /home/jetson/p4p/install/ui_for_debug_and_demo/share/ament_index/resource_index/packages/ui_for_debug_and_demo
+[71.156s] -- Up-to-date: /home/jetson/p4p/install/ui_for_debug_and_demo/share/ui_for_debug_and_demo/cmake/ui_for_debug_and_demoConfig.cmake
+[71.156s] -- Up-to-date: /home/jetson/p4p/install/ui_for_debug_and_demo/share/ui_for_debug_and_demo/cmake/ui_for_debug_and_demoConfig-version.cmake
+[71.156s] -- Installing: /home/jetson/p4p/install/ui_for_debug_and_demo/share/ui_for_debug_and_demo/package.xml
+[71.171s] Invoked command in '/home/jetson/p4p/build/ui_for_debug_and_demo' returned '0': AMENT_PREFIX_PATH=/home/jetson/p4p/install/tm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/p4p/install/tm_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/jetson/p4p/install/tm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/p4p/install/tm_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jetson/p4p/build/ui_for_debug_and_demo

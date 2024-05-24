@@ -1,0 +1,527 @@
+[0.184s] Invoking command in '/home/jetson/p4p/build/tm_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jetson/p4p/build/tm_msgs -- -j4 -l4
+[1.410s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.411s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.411s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.413s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[1.466s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.489s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.148s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.415s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.576s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.672s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[4.605s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.177s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.447s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[5.449s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[5.676s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.676s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[5.684s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[6.081s] -- Configuring done
+[6.627s] -- Generating done
+[6.650s] -- Build files have been written to: /home/jetson/p4p/build/tm_msgs
+[6.911s] [35m[1mScanning dependencies of target tm_msgs__cpp[0m
+[6.948s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.799s] [  1%] Built target tm_msgs__cpp
+[7.916s] [35m[1mScanning dependencies of target tm_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[7.972s] [  2%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[8.018s] [  3%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[8.309s] [  4%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tm_msgs/msg/detail/dds_fastrtps/feedback_state__type_support.cpp.o[0m
+[13.757s] [  5%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tm_msgs/msg/detail/dds_fastrtps/svr_response__type_support.cpp.o[0m
+[16.500s] [  6%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tm_msgs/msg/detail/dds_fastrtps/sct_response__type_support.cpp.o[0m
+[16.561s] [35m[1mScanning dependencies of target tm_msgs__rosidl_typesupport_cpp[0m
+[16.725s] [  7%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tm_msgs/msg/feedback_state__type_support.cpp.o[0m
+[17.888s] [35m[1mScanning dependencies of target tm_msgs__rosidl_typesupport_introspection_cpp[0m
+[18.097s] [  7%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tm_msgs/msg/detail/feedback_state__type_support.cpp.o[0m
+[18.672s] [  8%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tm_msgs/msg/svr_response__type_support.cpp.o[0m
+[19.272s] [  9%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tm_msgs/msg/detail/dds_fastrtps/sta_response__type_support.cpp.o[0m
+[19.966s] [35m[1mScanning dependencies of target tm_msgs__rosidl_generator_c[0m
+[20.093s] [ 10%] [32mBuilding C object CMakeFiles/tm_msgs__rosidl_generator_c.dir/rosidl_generator_c/tm_msgs/msg/detail/feedback_state__functions.c.o[0m
+[20.220s] [ 11%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tm_msgs/msg/sct_response__type_support.cpp.o[0m
+[20.655s] [ 12%] [32mBuilding C object CMakeFiles/tm_msgs__rosidl_generator_c.dir/rosidl_generator_c/tm_msgs/msg/detail/svr_response__functions.c.o[0m
+[20.673s] [ 13%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tm_msgs/msg/detail/svr_response__type_support.cpp.o[0m
+[21.232s] [ 13%] [32mBuilding C object CMakeFiles/tm_msgs__rosidl_generator_c.dir/rosidl_generator_c/tm_msgs/msg/detail/sct_response__functions.c.o[0m
+[21.452s] [ 14%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tm_msgs/srv/detail/dds_fastrtps/connect_tm__type_support.cpp.o[0m
+[21.626s] [ 15%] [32mBuilding C object CMakeFiles/tm_msgs__rosidl_generator_c.dir/rosidl_generator_c/tm_msgs/msg/detail/sta_response__functions.c.o[0m
+[21.950s] [ 16%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tm_msgs/msg/sta_response__type_support.cpp.o[0m
+[22.062s] [ 17%] [32mBuilding C object CMakeFiles/tm_msgs__rosidl_generator_c.dir/rosidl_generator_c/tm_msgs/srv/detail/connect_tm__functions.c.o[0m
+[22.488s] [ 18%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tm_msgs/msg/detail/sct_response__type_support.cpp.o[0m
+[22.522s] [ 19%] [32mBuilding C object CMakeFiles/tm_msgs__rosidl_generator_c.dir/rosidl_generator_c/tm_msgs/srv/detail/write_item__functions.c.o[0m
+[22.970s] [ 20%] [32mBuilding C object CMakeFiles/tm_msgs__rosidl_generator_c.dir/rosidl_generator_c/tm_msgs/srv/detail/ask_item__functions.c.o[0m
+[23.477s] [ 21%] [32mBuilding C object CMakeFiles/tm_msgs__rosidl_generator_c.dir/rosidl_generator_c/tm_msgs/srv/detail/send_script__functions.c.o[0m
+[23.665s] [ 21%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tm_msgs/srv/connect_tm__type_support.cpp.o[0m
+[23.738s] [ 21%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tm_msgs/srv/detail/dds_fastrtps/write_item__type_support.cpp.o[0m
+[23.925s] [ 22%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tm_msgs/msg/detail/sta_response__type_support.cpp.o[0m
+[24.050s] [ 23%] [32mBuilding C object CMakeFiles/tm_msgs__rosidl_generator_c.dir/rosidl_generator_c/tm_msgs/srv/detail/set_event__functions.c.o[0m
+[24.586s] [ 23%] [32mBuilding C object CMakeFiles/tm_msgs__rosidl_generator_c.dir/rosidl_generator_c/tm_msgs/srv/detail/set_io__functions.c.o[0m
+[25.098s] [ 24%] [32mBuilding C object CMakeFiles/tm_msgs__rosidl_generator_c.dir/rosidl_generator_c/tm_msgs/srv/detail/set_positions__functions.c.o[0m
+[25.219s] [ 25%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tm_msgs/srv/write_item__type_support.cpp.o[0m
+[25.337s] [ 26%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tm_msgs/srv/detail/connect_tm__type_support.cpp.o[0m
+[25.605s] [ 27%] [32mBuilding C object CMakeFiles/tm_msgs__rosidl_generator_c.dir/rosidl_generator_c/tm_msgs/srv/detail/ask_sta__functions.c.o[0m
+[26.134s] [ 28%] [32m[1mLinking C shared library libtm_msgs__rosidl_generator_c.so[0m
+[26.185s] [ 29%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tm_msgs/srv/detail/dds_fastrtps/ask_item__type_support.cpp.o[0m
+[26.470s] [ 29%] Built target tm_msgs__rosidl_generator_c
+[26.613s] [35m[1mScanning dependencies of target tm_msgs__rosidl_typesupport_c[0m
+[26.800s] [ 30%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tm_msgs/msg/feedback_state__type_support.cpp.o[0m
+[26.891s] [ 31%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tm_msgs/srv/ask_item__type_support.cpp.o[0m
+[26.983s] [ 32%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tm_msgs/srv/detail/write_item__type_support.cpp.o[0m
+[27.025s] [ 32%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tm_msgs/msg/svr_response__type_support.cpp.o[0m
+[27.261s] [ 33%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tm_msgs/msg/sct_response__type_support.cpp.o[0m
+[27.644s] [ 34%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tm_msgs/msg/sta_response__type_support.cpp.o[0m
+[27.899s] [ 35%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tm_msgs/srv/connect_tm__type_support.cpp.o[0m
+[28.220s] [ 36%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tm_msgs/srv/write_item__type_support.cpp.o[0m
+[28.404s] [ 37%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tm_msgs/srv/send_script__type_support.cpp.o[0m
+[28.504s] [ 38%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tm_msgs/srv/ask_item__type_support.cpp.o[0m
+[28.622s] [ 39%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tm_msgs/srv/detail/dds_fastrtps/send_script__type_support.cpp.o[0m
+[28.759s] [ 39%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tm_msgs/srv/send_script__type_support.cpp.o[0m
+[28.769s] [ 39%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tm_msgs/srv/detail/ask_item__type_support.cpp.o[0m
+[29.128s] [ 40%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tm_msgs/srv/set_event__type_support.cpp.o[0m
+[29.388s] [ 41%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tm_msgs/srv/set_io__type_support.cpp.o[0m
+[29.655s] [ 42%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tm_msgs/srv/set_positions__type_support.cpp.o[0m
+[29.960s] [ 43%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tm_msgs/srv/ask_sta__type_support.cpp.o[0m
+[30.110s] [ 44%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tm_msgs/srv/set_event__type_support.cpp.o[0m
+[30.285s] [ 45%] [32m[1mLinking CXX shared library libtm_msgs__rosidl_typesupport_c.so[0m
+[30.407s] [ 46%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tm_msgs/srv/detail/send_script__type_support.cpp.o[0m
+[30.651s] [ 47%] Built target tm_msgs__rosidl_typesupport_c
+[30.800s] [ 48%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[30.935s] [ 49%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tm_msgs/srv/detail/dds_fastrtps/set_event__type_support.cpp.o[0m
+[31.820s] [ 50%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tm_msgs/srv/set_io__type_support.cpp.o[0m
+[32.014s] [ 51%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tm_msgs/srv/detail/set_event__type_support.cpp.o[0m
+[33.154s] [ 52%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tm_msgs/srv/detail/dds_fastrtps/set_io__type_support.cpp.o[0m
+[33.670s] [ 53%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tm_msgs/srv/detail/set_io__type_support.cpp.o[0m
+[33.717s] [ 53%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tm_msgs/srv/set_positions__type_support.cpp.o[0m
+[35.170s] [ 54%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tm_msgs/srv/detail/set_positions__type_support.cpp.o[0m
+[35.677s] [ 55%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tm_msgs/srv/detail/dds_fastrtps/set_positions__type_support.cpp.o[0m
+[35.800s] [ 56%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tm_msgs/srv/ask_sta__type_support.cpp.o[0m
+[37.001s] [ 57%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tm_msgs/srv/detail/ask_sta__type_support.cpp.o[0m
+[37.659s] [ 58%] [32m[1mLinking CXX shared library libtm_msgs__rosidl_typesupport_cpp.so[0m
+[37.720s] [35m[1mScanning dependencies of target tm_msgs__rosidl_typesupport_introspection_c[0m
+[37.907s] [ 59%] [32mBuilding C object CMakeFiles/tm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tm_msgs/msg/detail/feedback_state__type_support.c.o[0m
+[38.015s] [ 59%] Built target tm_msgs__rosidl_typesupport_cpp
+[38.100s] [ 60%] [32mBuilding C object CMakeFiles/tm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tm_msgs/msg/detail/svr_response__type_support.c.o[0m
+[38.208s] [ 61%] [32mBuilding C object CMakeFiles/tm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tm_msgs/msg/detail/sct_response__type_support.c.o[0m
+[38.259s] [ 61%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tm_msgs/srv/detail/dds_fastrtps/ask_sta__type_support.cpp.o[0m
+[38.359s] [ 61%] [32mBuilding C object CMakeFiles/tm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tm_msgs/msg/detail/sta_response__type_support.c.o[0m
+[38.581s] [ 62%] [32mBuilding C object CMakeFiles/tm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tm_msgs/srv/detail/connect_tm__type_support.c.o[0m
+[38.615s] [ 63%] [32mBuilding C object CMakeFiles/tm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tm_msgs/srv/detail/write_item__type_support.c.o[0m
+[38.643s] [ 64%] [32m[1mLinking CXX shared library libtm_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[38.847s] [ 65%] [32mBuilding C object CMakeFiles/tm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tm_msgs/srv/detail/ask_item__type_support.c.o[0m
+[38.919s] [ 66%] [32mBuilding C object CMakeFiles/tm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tm_msgs/srv/detail/send_script__type_support.c.o[0m
+[39.123s] [ 67%] [32mBuilding C object CMakeFiles/tm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tm_msgs/srv/detail/set_event__type_support.c.o[0m
+[39.171s] [ 67%] Built target tm_msgs__rosidl_typesupport_introspection_cpp
+[39.211s] [ 68%] [32mBuilding C object CMakeFiles/tm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tm_msgs/srv/detail/set_io__type_support.c.o[0m
+[39.254s] [ 68%] [32mBuilding C object CMakeFiles/tm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tm_msgs/srv/detail/set_positions__type_support.c.o[0m
+[39.467s] [ 69%] [32mBuilding C object CMakeFiles/tm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tm_msgs/srv/detail/ask_sta__type_support.c.o[0m
+[39.657s] [ 70%] [32m[1mLinking C shared library libtm_msgs__rosidl_typesupport_introspection_c.so[0m
+[39.832s] [ 70%] Built target tm_msgs__rosidl_typesupport_introspection_c
+[40.300s] [ 71%] [32m[1mLinking CXX shared library libtm_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[40.667s] [ 71%] Built target tm_msgs__rosidl_typesupport_fastrtps_cpp
+[40.726s] [35m[1mScanning dependencies of target tm_msgs__rosidl_typesupport_fastrtps_c[0m
+[40.908s] [ 72%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tm_msgs/msg/detail/sct_response__type_support_c.cpp.o[0m
+[40.909s] [ 72%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tm_msgs/msg/detail/svr_response__type_support_c.cpp.o[0m
+[40.910s] [ 73%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tm_msgs/msg/detail/sta_response__type_support_c.cpp.o[0m
+[40.918s] [ 74%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tm_msgs/msg/detail/feedback_state__type_support_c.cpp.o[0m
+[42.474s] [ 75%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tm_msgs/srv/detail/connect_tm__type_support_c.cpp.o[0m
+[42.542s] [ 76%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tm_msgs/srv/detail/write_item__type_support_c.cpp.o[0m
+[42.563s] [ 77%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tm_msgs/srv/detail/ask_item__type_support_c.cpp.o[0m
+[42.878s] [ 78%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tm_msgs/srv/detail/send_script__type_support_c.cpp.o[0m
+[44.037s] [ 78%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tm_msgs/srv/detail/set_event__type_support_c.cpp.o[0m
+[44.189s] [ 79%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tm_msgs/srv/detail/set_io__type_support_c.cpp.o[0m
+[44.301s] [ 80%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tm_msgs/srv/detail/set_positions__type_support_c.cpp.o[0m
+[44.746s] [ 81%] [32mBuilding CXX object CMakeFiles/tm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tm_msgs/srv/detail/ask_sta__type_support_c.cpp.o[0m
+[46.394s] [ 82%] [32m[1mLinking CXX shared library libtm_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[46.736s] [ 83%] Built target tm_msgs__rosidl_typesupport_fastrtps_c
+[46.780s] [35m[1mScanning dependencies of target tm_msgs[0m
+[46.828s] [ 83%] Built target tm_msgs
+[46.871s] [35m[1mScanning dependencies of target tm_msgs__py[0m
+[46.923s] [ 84%] [34m[1mGenerating Python code for ROS interfaces[0m
+[60.361s] [ 84%] Built target tm_msgs__py
+[60.422s] [35m[1mScanning dependencies of target tm_msgs__python[0m
+[60.648s] [ 85%] [32mBuilding C object CMakeFiles/tm_msgs__python.dir/rosidl_generator_py/tm_msgs/msg/_feedback_state_s.c.o[0m
+[60.648s] [ 86%] [32mBuilding C object CMakeFiles/tm_msgs__python.dir/rosidl_generator_py/tm_msgs/msg/_svr_response_s.c.o[0m
+[61.082s] [ 87%] [32mBuilding C object CMakeFiles/tm_msgs__python.dir/rosidl_generator_py/tm_msgs/msg/_sta_response_s.c.o[0m
+[61.505s] [ 87%] [32mBuilding C object CMakeFiles/tm_msgs__python.dir/rosidl_generator_py/tm_msgs/srv/_connect_tm_s.c.o[0m
+[61.732s] [ 89%] [32mBuilding C object CMakeFiles/tm_msgs__python.dir/rosidl_generator_py/tm_msgs/msg/_sct_response_s.c.o[0m
+[61.732s] [ 89%] [32mBuilding C object CMakeFiles/tm_msgs__python.dir/rosidl_generator_py/tm_msgs/srv/_write_item_s.c.o[0m
+[61.948s] [ 90%] [32mBuilding C object CMakeFiles/tm_msgs__python.dir/rosidl_generator_py/tm_msgs/srv/_ask_item_s.c.o[0m
+[62.178s] [ 91%] [32mBuilding C object CMakeFiles/tm_msgs__python.dir/rosidl_generator_py/tm_msgs/srv/_send_script_s.c.o[0m
+[62.183s] [ 92%] [32mBuilding C object CMakeFiles/tm_msgs__python.dir/rosidl_generator_py/tm_msgs/srv/_set_event_s.c.o[0m
+[62.200s] [ 93%] [32mBuilding C object CMakeFiles/tm_msgs__python.dir/rosidl_generator_py/tm_msgs/srv/_set_io_s.c.o[0m
+[62.433s] [ 93%] [32mBuilding C object CMakeFiles/tm_msgs__python.dir/rosidl_generator_py/tm_msgs/srv/_set_positions_s.c.o[0m
+[62.643s] [ 94%] [32mBuilding C object CMakeFiles/tm_msgs__python.dir/rosidl_generator_py/tm_msgs/srv/_ask_sta_s.c.o[0m
+[63.083s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/tm_msgs/libtm_msgs__python.so[0m
+[63.285s] [ 95%] Built target tm_msgs__python
+[63.332s] [35m[1mScanning dependencies of target tm_msgs__rosidl_typesupport_c__pyext[0m
+[63.333s] [35m[1mScanning dependencies of target tm_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[63.333s] [35m[1mScanning dependencies of target tm_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[63.430s] [ 95%] [32mBuilding C object CMakeFiles/tm_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tm_msgs/_tm_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[63.438s] [ 96%] [32mBuilding C object CMakeFiles/tm_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tm_msgs/_tm_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[63.439s] [ 97%] [32mBuilding C object CMakeFiles/tm_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tm_msgs/_tm_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[64.083s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/tm_msgs/tm_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[64.098s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/tm_msgs/tm_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[64.105s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/tm_msgs/tm_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[64.261s] [100%] Built target tm_msgs__rosidl_typesupport_c__pyext
+[64.279s] [100%] Built target tm_msgs__rosidl_typesupport_introspection_c__pyext
+[64.407s] [100%] Built target tm_msgs__rosidl_typesupport_fastrtps_c__pyext
+[64.467s] Invoked command in '/home/jetson/p4p/build/tm_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jetson/p4p/build/tm_msgs -- -j4 -l4
+[65.506s] Invoking command in '/home/jetson/p4p/build/tm_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jetson/p4p/build/tm_msgs
+[65.542s] -- Install configuration: ""
+[65.543s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/ament_index/resource_index/rosidl_interfaces/tm_msgs
+[65.543s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/include/tm_msgs
+[65.544s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv
+[65.544s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/write_item.h
+[65.544s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/set_event.h
+[65.545s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/connect_tm.h
+[65.545s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/ask_sta.h
+[65.546s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail
+[65.546s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/send_script__type_support.h
+[65.547s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/set_io__functions.h
+[65.548s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/ask_sta__functions.c
+[65.548s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/set_event__functions.c
+[65.549s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/write_item__type_support.h
+[65.550s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/set_io__type_support.h
+[65.551s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/send_script__functions.c
+[65.551s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/send_script__functions.h
+[65.552s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/set_event__type_support.h
+[65.553s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/ask_item__functions.c
+[65.553s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/ask_item__type_support.h
+[65.554s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/write_item__functions.h
+[65.555s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/connect_tm__struct.h
+[65.555s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/ask_sta__struct.h
+[65.556s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/connect_tm__type_support.h
+[65.557s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/set_io__struct.h
+[65.557s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/set_positions__type_support.h
+[65.558s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/ask_item__struct.h
+[65.559s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/ask_item__functions.h
+[65.559s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/set_positions__functions.c
+[65.560s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/set_event__functions.h
+[65.561s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/send_script__struct.h
+[65.561s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/set_event__struct.h
+[65.562s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/set_positions__functions.h
+[65.563s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/set_positions__struct.h
+[65.563s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/write_item__struct.h
+[65.564s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/ask_sta__type_support.h
+[65.564s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/set_io__functions.c
+[65.565s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/connect_tm__functions.h
+[65.566s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/ask_sta__functions.h
+[65.566s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/write_item__functions.c
+[65.567s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/connect_tm__functions.c
+[65.568s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/ask_item.h
+[65.569s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/set_io.h
+[65.569s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/set_positions.h
+[65.570s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/send_script.h
+[65.570s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg
+[65.571s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/feedback_state.h
+[65.571s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/svr_response.h
+[65.572s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/sct_response.h
+[65.573s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail
+[65.573s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/sct_response__functions.c
+[65.574s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/sct_response__functions.h
+[65.574s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/sct_response__struct.h
+[65.575s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/sta_response__functions.h
+[65.575s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/sct_response__type_support.h
+[65.576s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/feedback_state__functions.c
+[65.577s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/sta_response__type_support.h
+[65.577s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/sta_response__functions.c
+[65.578s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/feedback_state__type_support.h
+[65.579s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/svr_response__type_support.h
+[65.579s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/svr_response__struct.h
+[65.580s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/svr_response__functions.h
+[65.580s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/svr_response__functions.c
+[65.581s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/sta_response__struct.h
+[65.582s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/feedback_state__functions.h
+[65.582s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/feedback_state__struct.h
+[65.583s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/sta_response.h
+[65.584s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/rosidl_generator_c__visibility_control.h
+[65.584s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/environment/library_path.sh
+[65.585s] -- Installing: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/environment/library_path.dsv
+[65.586s] -- Installing: /home/jetson/p4p/install/tm_msgs/lib/libtm_msgs__rosidl_generator_c.so
+[65.590s] -- Set runtime path of "/home/jetson/p4p/install/tm_msgs/lib/libtm_msgs__rosidl_generator_c.so" to ""
+[65.590s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/include/tm_msgs
+[65.591s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv
+[65.591s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail
+[65.592s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/set_event__rosidl_typesupport_fastrtps_c.h
+[65.592s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/ask_item__rosidl_typesupport_fastrtps_c.h
+[65.592s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/send_script__rosidl_typesupport_fastrtps_c.h
+[65.593s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/ask_sta__rosidl_typesupport_fastrtps_c.h
+[65.594s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/set_io__rosidl_typesupport_fastrtps_c.h
+[65.594s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/write_item__rosidl_typesupport_fastrtps_c.h
+[65.595s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/set_positions__rosidl_typesupport_fastrtps_c.h
+[65.595s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/connect_tm__rosidl_typesupport_fastrtps_c.h
+[65.596s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg
+[65.597s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail
+[65.597s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/feedback_state__rosidl_typesupport_fastrtps_c.h
+[65.598s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/sct_response__rosidl_typesupport_fastrtps_c.h
+[65.598s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/svr_response__rosidl_typesupport_fastrtps_c.h
+[65.598s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/sta_response__rosidl_typesupport_fastrtps_c.h
+[65.599s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[65.600s] -- Installing: /home/jetson/p4p/install/tm_msgs/lib/libtm_msgs__rosidl_typesupport_fastrtps_c.so
+[65.604s] -- Set runtime path of "/home/jetson/p4p/install/tm_msgs/lib/libtm_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[65.605s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/include/tm_msgs
+[65.606s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv
+[65.607s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail
+[65.607s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/write_item__rosidl_typesupport_fastrtps_cpp.hpp
+[65.607s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/set_io__rosidl_typesupport_fastrtps_cpp.hpp
+[65.608s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/send_script__rosidl_typesupport_fastrtps_cpp.hpp
+[65.609s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/ask_item__rosidl_typesupport_fastrtps_cpp.hpp
+[65.609s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/connect_tm__rosidl_typesupport_fastrtps_cpp.hpp
+[65.610s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/ask_sta__rosidl_typesupport_fastrtps_cpp.hpp
+[65.611s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/set_event__rosidl_typesupport_fastrtps_cpp.hpp
+[65.611s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/set_positions__rosidl_typesupport_fastrtps_cpp.hpp
+[65.612s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/dds_fastrtps
+[65.613s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg
+[65.613s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail
+[65.613s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/svr_response__rosidl_typesupport_fastrtps_cpp.hpp
+[65.614s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/feedback_state__rosidl_typesupport_fastrtps_cpp.hpp
+[65.614s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/sta_response__rosidl_typesupport_fastrtps_cpp.hpp
+[65.615s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/sct_response__rosidl_typesupport_fastrtps_cpp.hpp
+[65.615s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/dds_fastrtps
+[65.616s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[65.617s] -- Installing: /home/jetson/p4p/install/tm_msgs/lib/libtm_msgs__rosidl_typesupport_fastrtps_cpp.so
+[65.621s] -- Set runtime path of "/home/jetson/p4p/install/tm_msgs/lib/libtm_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[65.622s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/include/tm_msgs
+[65.622s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv
+[65.623s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail
+[65.623s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/send_script__type_support.c
+[65.624s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/connect_tm__rosidl_typesupport_introspection_c.h
+[65.624s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/set_io__rosidl_typesupport_introspection_c.h
+[65.624s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/ask_sta__rosidl_typesupport_introspection_c.h
+[65.625s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/set_positions__rosidl_typesupport_introspection_c.h
+[65.626s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/set_io__type_support.c
+[65.626s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/ask_item__type_support.c
+[65.627s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/connect_tm__type_support.c
+[65.628s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/ask_sta__type_support.c
+[65.629s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/write_item__type_support.c
+[65.630s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/ask_item__rosidl_typesupport_introspection_c.h
+[65.630s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/set_event__type_support.c
+[65.631s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/send_script__rosidl_typesupport_introspection_c.h
+[65.632s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/set_event__rosidl_typesupport_introspection_c.h
+[65.632s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/set_positions__type_support.c
+[65.633s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/write_item__rosidl_typesupport_introspection_c.h
+[65.634s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg
+[65.634s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail
+[65.635s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/sct_response__type_support.c
+[65.635s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/feedback_state__type_support.c
+[65.636s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/svr_response__rosidl_typesupport_introspection_c.h
+[65.637s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/sta_response__rosidl_typesupport_introspection_c.h
+[65.637s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/svr_response__type_support.c
+[65.638s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/feedback_state__rosidl_typesupport_introspection_c.h
+[65.638s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/sct_response__rosidl_typesupport_introspection_c.h
+[65.639s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/sta_response__type_support.c
+[65.640s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[65.641s] -- Installing: /home/jetson/p4p/install/tm_msgs/lib/libtm_msgs__rosidl_typesupport_introspection_c.so
+[65.644s] -- Set runtime path of "/home/jetson/p4p/install/tm_msgs/lib/libtm_msgs__rosidl_typesupport_introspection_c.so" to ""
+[65.645s] -- Installing: /home/jetson/p4p/install/tm_msgs/lib/libtm_msgs__rosidl_typesupport_c.so
+[65.648s] -- Set runtime path of "/home/jetson/p4p/install/tm_msgs/lib/libtm_msgs__rosidl_typesupport_c.so" to ""
+[65.648s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/include/tm_msgs
+[65.649s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv
+[65.649s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/set_io.hpp
+[65.650s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/set_positions.hpp
+[65.650s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/ask_item.hpp
+[65.651s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/ask_sta.hpp
+[65.651s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/send_script.hpp
+[65.652s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/set_event.hpp
+[65.652s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail
+[65.653s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/set_io__struct.hpp
+[65.653s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/write_item__struct.hpp
+[65.654s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/connect_tm__type_support.hpp
+[65.655s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/write_item__traits.hpp
+[65.655s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/set_io__type_support.hpp
+[65.656s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/ask_item__builder.hpp
+[65.657s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/send_script__struct.hpp
+[65.657s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/ask_item__struct.hpp
+[65.658s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/ask_item__type_support.hpp
+[65.659s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/set_event__builder.hpp
+[65.659s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/set_positions__traits.hpp
+[65.660s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/set_io__builder.hpp
+[65.661s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/write_item__type_support.hpp
+[65.661s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/set_positions__type_support.hpp
+[65.662s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/set_io__traits.hpp
+[65.663s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/send_script__traits.hpp
+[65.663s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/ask_item__traits.hpp
+[65.664s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/set_event__type_support.hpp
+[65.664s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/set_positions__struct.hpp
+[65.665s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/ask_sta__struct.hpp
+[65.666s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/connect_tm__struct.hpp
+[65.667s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/connect_tm__traits.hpp
+[65.667s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/ask_sta__type_support.hpp
+[65.668s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/set_positions__builder.hpp
+[65.669s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/connect_tm__builder.hpp
+[65.669s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/set_event__struct.hpp
+[65.670s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/send_script__type_support.hpp
+[65.671s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/ask_sta__traits.hpp
+[65.671s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/set_event__traits.hpp
+[65.672s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/write_item__builder.hpp
+[65.673s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/ask_sta__builder.hpp
+[65.674s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/send_script__builder.hpp
+[65.674s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/connect_tm.hpp
+[65.675s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/write_item.hpp
+[65.675s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg
+[65.676s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/svr_response.hpp
+[65.676s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/sta_response.hpp
+[65.677s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[65.677s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/feedback_state.hpp
+[65.678s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/sct_response.hpp
+[65.678s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail
+[65.678s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/feedback_state__struct.hpp
+[65.679s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/sct_response__struct.hpp
+[65.680s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/svr_response__builder.hpp
+[65.680s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/svr_response__traits.hpp
+[65.681s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/sta_response__struct.hpp
+[65.681s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/svr_response__type_support.hpp
+[65.682s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/sta_response__traits.hpp
+[65.683s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/sct_response__traits.hpp
+[65.684s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/sta_response__builder.hpp
+[65.684s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/sct_response__type_support.hpp
+[65.685s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/feedback_state__traits.hpp
+[65.685s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/feedback_state__builder.hpp
+[65.686s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/sct_response__builder.hpp
+[65.687s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/feedback_state__type_support.hpp
+[65.688s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/sta_response__type_support.hpp
+[65.688s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/svr_response__struct.hpp
+[65.689s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/include/tm_msgs
+[65.690s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv
+[65.690s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail
+[65.691s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/connect_tm__type_support.cpp
+[65.691s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/send_script__rosidl_typesupport_introspection_cpp.hpp
+[65.691s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/ask_sta__rosidl_typesupport_introspection_cpp.hpp
+[65.692s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/write_item__rosidl_typesupport_introspection_cpp.hpp
+[65.692s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/write_item__type_support.cpp
+[65.693s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/set_io__type_support.cpp
+[65.694s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/connect_tm__rosidl_typesupport_introspection_cpp.hpp
+[65.695s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/ask_item__rosidl_typesupport_introspection_cpp.hpp
+[65.695s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/ask_sta__type_support.cpp
+[65.696s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/set_io__rosidl_typesupport_introspection_cpp.hpp
+[65.697s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/ask_item__type_support.cpp
+[65.697s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/set_event__type_support.cpp
+[65.698s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/set_positions__type_support.cpp
+[65.702s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/send_script__type_support.cpp
+[65.702s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/set_event__rosidl_typesupport_introspection_cpp.hpp
+[65.702s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/srv/detail/set_positions__rosidl_typesupport_introspection_cpp.hpp
+[65.703s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg
+[65.703s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail
+[65.704s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/sta_response__type_support.cpp
+[65.704s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/feedback_state__rosidl_typesupport_introspection_cpp.hpp
+[65.705s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/sta_response__rosidl_typesupport_introspection_cpp.hpp
+[65.705s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/svr_response__rosidl_typesupport_introspection_cpp.hpp
+[65.706s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/sct_response__rosidl_typesupport_introspection_cpp.hpp
+[65.707s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/sct_response__type_support.cpp
+[65.707s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/svr_response__type_support.cpp
+[65.708s] -- Installing: /home/jetson/p4p/install/tm_msgs/include/tm_msgs/msg/detail/feedback_state__type_support.cpp
+[65.709s] -- Installing: /home/jetson/p4p/install/tm_msgs/lib/libtm_msgs__rosidl_typesupport_introspection_cpp.so
+[65.713s] -- Set runtime path of "/home/jetson/p4p/install/tm_msgs/lib/libtm_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[65.714s] -- Installing: /home/jetson/p4p/install/tm_msgs/lib/libtm_msgs__rosidl_typesupport_cpp.so
+[65.718s] -- Set runtime path of "/home/jetson/p4p/install/tm_msgs/lib/libtm_msgs__rosidl_typesupport_cpp.so" to ""
+[65.718s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/environment/pythonpath.sh
+[65.719s] -- Installing: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/environment/pythonpath.dsv
+[65.719s] -- Installing: /home/jetson/p4p/install/tm_msgs/lib/python3.8/site-packages/tm_msgs/__init__.py
+[65.834s] Compiling '/home/jetson/p4p/install/tm_msgs/lib/python3.8/site-packages/tm_msgs/__init__.py'...
+[65.849s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/lib/python3.8/site-packages/tm_msgs/msg
+[65.849s] -- Installing: /home/jetson/p4p/install/tm_msgs/lib/python3.8/site-packages/tm_msgs/msg/__init__.py
+[65.850s] -- Installing: /home/jetson/p4p/install/tm_msgs/lib/python3.8/site-packages/tm_msgs/msg/_sct_response.py
+[65.850s] -- Installing: /home/jetson/p4p/install/tm_msgs/lib/python3.8/site-packages/tm_msgs/msg/_sta_response.py
+[65.851s] -- Installing: /home/jetson/p4p/install/tm_msgs/lib/python3.8/site-packages/tm_msgs/msg/_svr_response_s.c
+[65.852s] -- Installing: /home/jetson/p4p/install/tm_msgs/lib/python3.8/site-packages/tm_msgs/msg/_sct_response_s.c
+[65.853s] -- Installing: /home/jetson/p4p/install/tm_msgs/lib/python3.8/site-packages/tm_msgs/msg/_feedback_state_s.c
+[65.854s] -- Installing: /home/jetson/p4p/install/tm_msgs/lib/python3.8/site-packages/tm_msgs/msg/_sta_response_s.c
+[65.855s] -- Installing: /home/jetson/p4p/install/tm_msgs/lib/python3.8/site-packages/tm_msgs/msg/_feedback_state.py
+[65.856s] -- Installing: /home/jetson/p4p/install/tm_msgs/lib/python3.8/site-packages/tm_msgs/msg/_svr_response.py
+[65.857s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/lib/python3.8/site-packages/tm_msgs/srv
+[65.858s] -- Installing: /home/jetson/p4p/install/tm_msgs/lib/python3.8/site-packages/tm_msgs/srv/__init__.py
+[65.858s] -- Installing: /home/jetson/p4p/install/tm_msgs/lib/python3.8/site-packages/tm_msgs/srv/_set_event.py
+[65.859s] -- Installing: /home/jetson/p4p/install/tm_msgs/lib/python3.8/site-packages/tm_msgs/srv/_ask_sta_s.c
+[65.860s] -- Installing: /home/jetson/p4p/install/tm_msgs/lib/python3.8/site-packages/tm_msgs/srv/_ask_item.py
+[65.861s] -- Installing: /home/jetson/p4p/install/tm_msgs/lib/python3.8/site-packages/tm_msgs/srv/_send_script_s.c
+[65.861s] -- Installing: /home/jetson/p4p/install/tm_msgs/lib/python3.8/site-packages/tm_msgs/srv/_set_io_s.c
+[65.862s] -- Installing: /home/jetson/p4p/install/tm_msgs/lib/python3.8/site-packages/tm_msgs/srv/_set_event_s.c
+[65.863s] -- Installing: /home/jetson/p4p/install/tm_msgs/lib/python3.8/site-packages/tm_msgs/srv/_connect_tm_s.c
+[65.863s] -- Installing: /home/jetson/p4p/install/tm_msgs/lib/python3.8/site-packages/tm_msgs/srv/_ask_sta.py
+[65.864s] -- Installing: /home/jetson/p4p/install/tm_msgs/lib/python3.8/site-packages/tm_msgs/srv/_send_script.py
+[65.865s] -- Installing: /home/jetson/p4p/install/tm_msgs/lib/python3.8/site-packages/tm_msgs/srv/_set_positions.py
+[65.865s] -- Installing: /home/jetson/p4p/install/tm_msgs/lib/python3.8/site-packages/tm_msgs/srv/_write_item_s.c
+[65.866s] -- Installing: /home/jetson/p4p/install/tm_msgs/lib/python3.8/site-packages/tm_msgs/srv/_set_positions_s.c
+[65.867s] -- Installing: /home/jetson/p4p/install/tm_msgs/lib/python3.8/site-packages/tm_msgs/srv/_set_io.py
+[65.868s] -- Installing: /home/jetson/p4p/install/tm_msgs/lib/python3.8/site-packages/tm_msgs/srv/_connect_tm.py
+[65.869s] -- Installing: /home/jetson/p4p/install/tm_msgs/lib/python3.8/site-packages/tm_msgs/srv/_write_item.py
+[65.869s] -- Installing: /home/jetson/p4p/install/tm_msgs/lib/python3.8/site-packages/tm_msgs/srv/_ask_item_s.c
+[65.872s] -- Installing: /home/jetson/p4p/install/tm_msgs/lib/python3.8/site-packages/tm_msgs/tm_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[65.875s] -- Set runtime path of "/home/jetson/p4p/install/tm_msgs/lib/python3.8/site-packages/tm_msgs/tm_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""
+[65.876s] -- Installing: /home/jetson/p4p/install/tm_msgs/lib/python3.8/site-packages/tm_msgs/tm_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[65.880s] -- Set runtime path of "/home/jetson/p4p/install/tm_msgs/lib/python3.8/site-packages/tm_msgs/tm_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""
+[65.881s] -- Installing: /home/jetson/p4p/install/tm_msgs/lib/python3.8/site-packages/tm_msgs/tm_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[65.884s] -- Set runtime path of "/home/jetson/p4p/install/tm_msgs/lib/python3.8/site-packages/tm_msgs/tm_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""
+[65.885s] -- Installing: /home/jetson/p4p/install/tm_msgs/lib/libtm_msgs__python.so
+[65.889s] -- Set runtime path of "/home/jetson/p4p/install/tm_msgs/lib/libtm_msgs__python.so" to ""
+[65.889s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/msg/FeedbackState.idl
+[65.890s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/msg/SvrResponse.idl
+[65.891s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/msg/SctResponse.idl
+[65.891s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/msg/StaResponse.idl
+[65.892s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/srv/ConnectTM.idl
+[65.892s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/srv/WriteItem.idl
+[65.892s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/srv/AskItem.idl
+[65.893s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/srv/SendScript.idl
+[65.893s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/srv/SetEvent.idl
+[65.894s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/srv/SetIO.idl
+[65.894s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/srv/SetPositions.idl
+[65.894s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/srv/AskSta.idl
+[65.895s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/msg/FeedbackState.msg
+[65.895s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/msg/SvrResponse.msg
+[65.896s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/msg/SctResponse.msg
+[65.896s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/msg/StaResponse.msg
+[65.897s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/srv/ConnectTM.srv
+[65.897s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/srv/ConnectTM_Request.msg
+[65.897s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/srv/ConnectTM_Response.msg
+[65.898s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/srv/WriteItem.srv
+[65.898s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/srv/WriteItem_Request.msg
+[65.899s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/srv/WriteItem_Response.msg
+[65.900s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/srv/AskItem.srv
+[65.900s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/srv/AskItem_Request.msg
+[65.900s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/srv/AskItem_Response.msg
+[65.901s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/srv/SendScript.srv
+[65.902s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/srv/SendScript_Request.msg
+[65.902s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/srv/SendScript_Response.msg
+[65.903s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/srv/SetEvent.srv
+[65.903s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/srv/SetEvent_Request.msg
+[65.904s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/srv/SetEvent_Response.msg
+[65.905s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/srv/SetIO.srv
+[65.905s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/srv/SetIO_Request.msg
+[65.906s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/srv/SetIO_Response.msg
+[65.906s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/srv/SetPositions.srv
+[65.908s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/srv/SetPositions_Request.msg
+[65.908s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/srv/SetPositions_Response.msg
+[65.908s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/srv/AskSta.srv
+[65.909s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/srv/AskSta_Request.msg
+[65.909s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/srv/AskSta_Response.msg
+[65.909s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/ament_index/resource_index/package_run_dependencies/tm_msgs
+[65.910s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/ament_index/resource_index/parent_prefix_path/tm_msgs
+[65.910s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/environment/ament_prefix_path.sh
+[65.911s] -- Installing: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/environment/ament_prefix_path.dsv
+[65.911s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/environment/path.sh
+[65.912s] -- Installing: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/environment/path.dsv
+[65.912s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/local_setup.bash
+[65.913s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/local_setup.sh
+[65.913s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/local_setup.zsh
+[65.913s] -- Installing: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/local_setup.dsv
+[65.913s] -- Installing: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/package.dsv
+[65.914s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/ament_index/resource_index/packages/tm_msgs
+[65.914s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/cmake/tm_msgs__rosidl_generator_cExport.cmake
+[65.915s] -- Installing: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/cmake/tm_msgs__rosidl_generator_cExport-noconfig.cmake
+[65.915s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/cmake/tm_msgs__rosidl_typesupport_introspection_cExport.cmake
+[65.915s] -- Installing: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/cmake/tm_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[65.916s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/cmake/tm_msgs__rosidl_typesupport_cExport.cmake
+[65.916s] -- Installing: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/cmake/tm_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[65.916s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/cmake/tm_msgs__rosidl_generator_cppExport.cmake
+[65.917s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/cmake/tm_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[65.917s] -- Installing: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/cmake/tm_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[65.919s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/cmake/tm_msgs__rosidl_typesupport_cppExport.cmake
+[65.919s] -- Installing: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/cmake/tm_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[65.920s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/cmake/rosidl_cmake-extras.cmake
+[65.921s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[65.921s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[65.921s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[65.922s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[65.922s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[65.923s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[65.923s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/cmake/tm_msgsConfig.cmake
+[65.923s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/cmake/tm_msgsConfig-version.cmake
+[65.924s] -- Up-to-date: /home/jetson/p4p/install/tm_msgs/share/tm_msgs/package.xml
+[65.940s] Invoked command in '/home/jetson/p4p/build/tm_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jetson/p4p/build/tm_msgs
