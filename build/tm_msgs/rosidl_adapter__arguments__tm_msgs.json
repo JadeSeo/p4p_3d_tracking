@@ -1,0 +1,17 @@
+{
+  "package_name": "tm_msgs",
+  "non_idl_tuples": [
+    "/home/jetson/p4p/tmr_ros2/tm_msgs:msg/FeedbackState.msg",
+    "/home/jetson/p4p/tmr_ros2/tm_msgs:msg/SvrResponse.msg",
+    "/home/jetson/p4p/tmr_ros2/tm_msgs:msg/SctResponse.msg",
+    "/home/jetson/p4p/tmr_ros2/tm_msgs:msg/StaResponse.msg",
+    "/home/jetson/p4p/tmr_ros2/tm_msgs:srv/ConnectTM.srv",
+    "/home/jetson/p4p/tmr_ros2/tm_msgs:srv/WriteItem.srv",
+    "/home/jetson/p4p/tmr_ros2/tm_msgs:srv/AskItem.srv",
+    "/home/jetson/p4p/tmr_ros2/tm_msgs:srv/SendScript.srv",
+    "/home/jetson/p4p/tmr_ros2/tm_msgs:srv/SetEvent.srv",
+    "/home/jetson/p4p/tmr_ros2/tm_msgs:srv/SetIO.srv",
+    "/home/jetson/p4p/tmr_ros2/tm_msgs:srv/SetPositions.srv",
+    "/home/jetson/p4p/tmr_ros2/tm_msgs:srv/AskSta.srv"
+  ]
+}

@@ -1,0 +1,150 @@
+[0.195s] Invoking command in '/home/jetson/p4p/build/tm_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jetson/p4p/tmr_ros2/tm_description -DCMAKE_INSTALL_PREFIX=/home/jetson/p4p/install/tm_description
+[1.427s] -- The C compiler identification is GNU 9.4.0
+[1.428s] -- The CXX compiler identification is GNU 9.4.0
+[1.428s] -- Check for working C compiler: /usr/bin/cc
+[1.601s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.606s] -- Detecting C compiler ABI info
+[2.005s] -- Detecting C compiler ABI info - done
+[2.079s] -- Detecting C compile features
+[2.081s] -- Detecting C compile features - done
+[2.094s] -- Check for working CXX compiler: /usr/bin/c++
+[2.526s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.531s] -- Detecting CXX compiler ABI info
+[2.952s] -- Detecting CXX compiler ABI info - done
+[3.020s] -- Detecting CXX compile features
+[3.022s] -- Detecting CXX compile features - done
+[3.031s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.139s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.141s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.407s] -- Configuring done
+[4.419s] -- Generating done
+[4.426s] -- Build files have been written to: /home/jetson/p4p/build/tm_description
+[4.444s] Invoked command in '/home/jetson/p4p/build/tm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jetson/p4p/tmr_ros2/tm_description -DCMAKE_INSTALL_PREFIX=/home/jetson/p4p/install/tm_description
+[4.461s] Invoking command in '/home/jetson/p4p/build/tm_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jetson/p4p/build/tm_description -- -j4 -l4
+[4.655s] Invoked command in '/home/jetson/p4p/build/tm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jetson/p4p/build/tm_description -- -j4 -l4
+[4.824s] Invoking command in '/home/jetson/p4p/build/tm_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jetson/p4p/build/tm_description
+[4.876s] -- Install configuration: ""
+[4.877s] -- Installing: /home/jetson/p4p/install/tm_description/share/ament_index/resource_index/package_run_dependencies/tm_description
+[4.878s] -- Installing: /home/jetson/p4p/install/tm_description/share/ament_index/resource_index/parent_prefix_path/tm_description
+[4.880s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/environment/ament_prefix_path.sh
+[4.881s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/environment/ament_prefix_path.dsv
+[4.882s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/environment/path.sh
+[4.883s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/environment/path.dsv
+[4.884s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/local_setup.bash
+[4.885s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/local_setup.sh
+[4.886s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/local_setup.zsh
+[4.886s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/local_setup.dsv
+[4.887s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/package.dsv
+[4.888s] -- Installing: /home/jetson/p4p/install/tm_description/share/ament_index/resource_index/packages/tm_description
+[4.889s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/cmake/tm_descriptionConfig.cmake
+[4.890s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/cmake/tm_descriptionConfig-version.cmake
+[4.891s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/package.xml
+[4.894s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes
+[4.895s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm12
+[4.897s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm12/visual
+[4.898s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm12/visual/tm12-arm2.stl
+[4.904s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm12/visual/tmr_750w_01.obj
+[4.947s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm12/visual/tm12-base.mtl
+[4.947s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm12/visual/tm12-base.stl
+[4.954s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm12/visual/tm12-arm1.obj
+[5.007s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm12/visual/tm12-arm2.obj
+[5.029s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm12/visual/tm12-arm2.mtl
+[5.030s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm12/visual/tm12-arm1.mtl
+[5.030s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm12/visual/tmr_750w_01.mtl
+[5.031s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm12/visual/tmr_750w_01.stl
+[5.046s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm12/visual/tm12-arm1.stl
+[5.065s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm12/visual/tm12-base.obj
+[5.084s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm12/collision
+[5.084s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm12/collision/tm12-arm2_c.stl
+[5.084s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm12/collision/tm12-base_c.stl
+[5.085s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm12/collision/tm12-arm1_c.stl
+[5.086s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm12/collision/tmr_750w_01_c.stl
+[5.088s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm5-900
+[5.088s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm5-900/visual
+[5.088s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm5-900/visual/tm5-base.stl
+[5.091s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm5-900/visual/tmr_iox.stl
+[5.103s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm5-900/visual/tmr_ee.mtl
+[5.103s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm5-900/visual/tmr_ee.stl
+[5.127s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm5-900/visual/tm5-900_arm2.mtl
+[5.128s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm5-900/visual/tmr_100w_01.mtl
+[5.128s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm5-900/visual/tmr_iox.obj
+[5.153s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm5-900/visual/tmr_400w_01.stl
+[5.168s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm5-900/visual/tmr_400w_01.obj
+[5.209s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm5-900/visual/tm5-base.mtl
+[5.209s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm5-900/visual/tmr_100w_01.obj
+[5.247s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm5-900/visual/tmr_ee.obj
+[5.319s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm5-900/visual/tm5-900_arm2.obj
+[5.346s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm5-900/visual/tm5-900_arm2.stl
+[5.355s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm5-900/visual/tmr_100w_02.obj
+[5.390s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm5-900/visual/tmr_100w_02.mtl
+[5.390s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm5-900/visual/tm5-900_arm1.stl
+[5.410s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm5-900/visual/tm5-900_arm1.mtl
+[5.410s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm5-900/visual/tmr_100w_02.stl
+[5.424s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm5-900/visual/tm5-900_arm1.obj
+[5.472s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm5-900/visual/tmr_400w_01.mtl
+[5.474s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm5-900/visual/tmr_iox.mtl
+[5.474s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm5-900/visual/tm5-base.obj
+[5.486s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm5-900/visual/tmr_100w_01.stl
+[5.498s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm5-900/collision
+[5.499s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm5-900/collision/tmr_100w_01_c.stl
+[5.502s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm5-900/collision/tm5-900_arm1_c.stl
+[5.503s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm5-900/collision/tmr_ee_c.stl
+[5.506s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm5-900/collision/tmr_400w_01_c.stl
+[5.506s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm5-900/collision/tm5-base_c.stl
+[5.507s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm5-900/collision/tmr_iox_c.stl
+[5.509s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm5-900/collision/tmr_100w_02_c.stl
+[5.513s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm5-900/collision/tm5-900_arm2_c.stl
+[5.514s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm5-700
+[5.516s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm5-700/visual
+[5.516s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm5-700/visual/tm5-700_arm2.mtl
+[5.516s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm5-700/visual/tm5-700_arm1.mtl
+[5.518s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm5-700/visual/tm5-700_arm2.obj
+[5.547s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm5-700/visual/tm5-700_arm1.obj
+[5.608s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm5-700/visual/tm5-700_arm2.stl
+[5.620s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm5-700/visual/tm5-700_arm1.stl
+[5.642s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm5-700/collision
+[5.642s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm5-700/collision/tm5-700_arm2_c.stl
+[5.643s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm5-700/collision/tm5-700_arm1_c.stl
+[5.644s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm14
+[5.644s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm14/visual
+[5.646s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm14/visual/tm14_arm1.stl
+[5.656s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm14/visual/tm14_arm2.obj
+[5.677s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm14/visual/tm14_arm1.mtl
+[5.678s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm14/visual/tm14_arm2.mtl
+[5.678s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm14/visual/tm14_arm1.obj
+[5.708s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm14/visual/tm14_arm2.stl
+[5.718s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm14/collision
+[5.718s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm14/collision/tm14_arm1_c.stl
+[5.719s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/meshes/tm14/collision/tm14_arm2_c.stl
+[5.720s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/urdf
+[5.720s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/urdf/tm14-nominal.urdf
+[5.721s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/urdf/tm5-900.urdf
+[5.721s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/urdf/tm12-nominal.urdf
+[5.722s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/urdf/tm5x-900-nominal.urdf
+[5.723s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/urdf/tm5-900-nominal.urdf
+[5.723s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/urdf/tm5x-700-nominal.urdf
+[5.724s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/urdf/tm14x-nominal.urdf
+[5.725s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/urdf/tm5-700-nominal.urdf
+[5.725s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/urdf/tm12x-nominal.urdf
+[5.726s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/xacro
+[5.726s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/xacro/tm12.urdf.xacro
+[5.727s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/xacro/macro.materials.xacro
+[5.728s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/xacro/macro.tm14-nominal.urdf.xacro
+[5.728s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/xacro/macro.tm12-nominal.urdf.xacro
+[5.729s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/xacro/tm5x-700.urdf.xacro
+[5.730s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/xacro/tm14x.urdf.xacro
+[5.730s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/xacro/macro.tm5-700-nominal.urdf.xacro
+[5.731s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/xacro/tm5x-900.urdf.xacro
+[5.732s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/xacro/macro.tm5x-900-nominal.urdf.xacro
+[5.733s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/xacro/macro.tm5x-700-nominal.urdf.xacro
+[5.733s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/xacro/macro.transmission.xacro
+[5.733s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/xacro/macro.inertial.xacro
+[5.734s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/xacro/tm12x.urdf.xacro
+[5.735s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/xacro/macro.gazebo.xacro
+[5.736s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/xacro/macro.tm14x-nominal.urdf.xacro
+[5.737s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/xacro/tm5-900.urdf.xacro
+[5.738s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/xacro/tm14.urdf.xacro
+[5.739s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/xacro/tm5-700.urdf.xacro
+[5.744s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/xacro/macro.tm12x-nominal.urdf.xacro
+[5.746s] -- Installing: /home/jetson/p4p/install/tm_description/share/tm_description/xacro/macro.tm5-900-nominal.urdf.xacro
+[6.515s] Invoked command in '/home/jetson/p4p/build/tm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jetson/p4p/build/tm_description

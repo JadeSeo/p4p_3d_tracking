@@ -1,0 +1,44 @@
+[3.134s] Invoking command in '/home/jetson/p4p/tmr_ros2/tm_mod_urdf': PYTHONPATH=/home/jetson/p4p/build/tm_mod_urdf/prefix_override:/home/jetson/p4p/install/tm_mod_urdf/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tm_mod_urdf build --build-base /home/jetson/p4p/build/tm_mod_urdf/build install --record /home/jetson/p4p/build/tm_mod_urdf/install.log --single-version-externally-managed install_data
+[4.401s] running egg_info
+[4.404s] creating ../../build/tm_mod_urdf/tm_mod_urdf.egg-info
+[4.425s] writing ../../build/tm_mod_urdf/tm_mod_urdf.egg-info/PKG-INFO
+[4.429s] writing dependency_links to ../../build/tm_mod_urdf/tm_mod_urdf.egg-info/dependency_links.txt
+[4.430s] writing entry points to ../../build/tm_mod_urdf/tm_mod_urdf.egg-info/entry_points.txt
+[4.430s] writing requirements to ../../build/tm_mod_urdf/tm_mod_urdf.egg-info/requires.txt
+[4.431s] writing top-level names to ../../build/tm_mod_urdf/tm_mod_urdf.egg-info/top_level.txt
+[4.437s] writing manifest file '../../build/tm_mod_urdf/tm_mod_urdf.egg-info/SOURCES.txt'
+[4.619s] reading manifest file '../../build/tm_mod_urdf/tm_mod_urdf.egg-info/SOURCES.txt'
+[4.623s] writing manifest file '../../build/tm_mod_urdf/tm_mod_urdf.egg-info/SOURCES.txt'
+[4.640s] running build
+[4.643s] running build_py
+[4.644s] creating /home/jetson/p4p/build/tm_mod_urdf/build
+[4.644s] creating /home/jetson/p4p/build/tm_mod_urdf/build/lib
+[4.644s] creating /home/jetson/p4p/build/tm_mod_urdf/build/lib/tm_mod_urdf
+[4.645s] copying tm_mod_urdf/__init__.py -> /home/jetson/p4p/build/tm_mod_urdf/build/lib/tm_mod_urdf
+[4.645s] copying tm_mod_urdf/_modify_urdf.py -> /home/jetson/p4p/build/tm_mod_urdf/build/lib/tm_mod_urdf
+[4.646s] copying tm_mod_urdf/modify_urdf.py -> /home/jetson/p4p/build/tm_mod_urdf/build/lib/tm_mod_urdf
+[4.667s] copying tm_mod_urdf/modify_xacro.py -> /home/jetson/p4p/build/tm_mod_urdf/build/lib/tm_mod_urdf
+[4.668s] running install
+[4.668s] running install_lib
+[4.668s] creating /home/jetson/p4p/install/tm_mod_urdf/lib/python3.8/site-packages/tm_mod_urdf
+[4.669s] copying /home/jetson/p4p/build/tm_mod_urdf/build/lib/tm_mod_urdf/__init__.py -> /home/jetson/p4p/install/tm_mod_urdf/lib/python3.8/site-packages/tm_mod_urdf
+[4.669s] copying /home/jetson/p4p/build/tm_mod_urdf/build/lib/tm_mod_urdf/_modify_urdf.py -> /home/jetson/p4p/install/tm_mod_urdf/lib/python3.8/site-packages/tm_mod_urdf
+[4.669s] copying /home/jetson/p4p/build/tm_mod_urdf/build/lib/tm_mod_urdf/modify_urdf.py -> /home/jetson/p4p/install/tm_mod_urdf/lib/python3.8/site-packages/tm_mod_urdf
+[4.670s] copying /home/jetson/p4p/build/tm_mod_urdf/build/lib/tm_mod_urdf/modify_xacro.py -> /home/jetson/p4p/install/tm_mod_urdf/lib/python3.8/site-packages/tm_mod_urdf
+[4.672s] byte-compiling /home/jetson/p4p/install/tm_mod_urdf/lib/python3.8/site-packages/tm_mod_urdf/__init__.py to __init__.cpython-38.pyc
+[4.678s] byte-compiling /home/jetson/p4p/install/tm_mod_urdf/lib/python3.8/site-packages/tm_mod_urdf/_modify_urdf.py to _modify_urdf.cpython-38.pyc
+[4.687s] byte-compiling /home/jetson/p4p/install/tm_mod_urdf/lib/python3.8/site-packages/tm_mod_urdf/modify_urdf.py to modify_urdf.cpython-38.pyc
+[4.692s] byte-compiling /home/jetson/p4p/install/tm_mod_urdf/lib/python3.8/site-packages/tm_mod_urdf/modify_xacro.py to modify_xacro.cpython-38.pyc
+[4.696s] running install_data
+[4.696s] creating /home/jetson/p4p/install/tm_mod_urdf/share/ament_index
+[4.697s] creating /home/jetson/p4p/install/tm_mod_urdf/share/ament_index/resource_index
+[4.697s] creating /home/jetson/p4p/install/tm_mod_urdf/share/ament_index/resource_index/packages
+[4.697s] copying resource/tm_mod_urdf -> /home/jetson/p4p/install/tm_mod_urdf/share/ament_index/resource_index/packages
+[4.701s] copying package.xml -> /home/jetson/p4p/install/tm_mod_urdf/share/tm_mod_urdf
+[4.701s] running install_egg_info
+[4.706s] Copying ../../build/tm_mod_urdf/tm_mod_urdf.egg-info to /home/jetson/p4p/install/tm_mod_urdf/lib/python3.8/site-packages/tm_mod_urdf-1.1.2-py3.8.egg-info
+[4.712s] running install_scripts
+[4.807s] Installing modify_urdf script to /home/jetson/p4p/install/tm_mod_urdf/lib/tm_mod_urdf
+[4.808s] Installing modify_xacro script to /home/jetson/p4p/install/tm_mod_urdf/lib/tm_mod_urdf
+[4.812s] writing list of installed files to '/home/jetson/p4p/build/tm_mod_urdf/install.log'
+[4.969s] Invoked command in '/home/jetson/p4p/tmr_ros2/tm_mod_urdf' returned '0': PYTHONPATH=/home/jetson/p4p/build/tm_mod_urdf/prefix_override:/home/jetson/p4p/install/tm_mod_urdf/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tm_mod_urdf build --build-base /home/jetson/p4p/build/tm_mod_urdf/build install --record /home/jetson/p4p/build/tm_mod_urdf/install.log --single-version-externally-managed install_data

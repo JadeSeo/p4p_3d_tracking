@@ -1,0 +1,52 @@
+[0.136s] Invoking command in '/home/jetson/p4p/build/tm_moveit_config_tm12x': AMENT_PREFIX_PATH=/home/jetson/p4p/install/tm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/p4p/install/tm_description:/opt/ros/foxy /usr/bin/cmake /home/jetson/p4p/tmr_ros2/tm_moveit_config_tm12x -DCMAKE_INSTALL_PREFIX=/home/jetson/p4p/install/tm_moveit_config_tm12x
+[0.646s] -- The C compiler identification is GNU 9.4.0
+[1.210s] -- The CXX compiler identification is GNU 9.4.0
+[1.235s] -- Check for working C compiler: /usr/bin/cc
+[1.773s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.777s] -- Detecting C compiler ABI info
+[2.751s] -- Detecting C compiler ABI info - done
+[2.853s] -- Detecting C compile features
+[2.856s] -- Detecting C compile features - done
+[2.869s] -- Check for working CXX compiler: /usr/bin/c++
+[3.592s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.603s] -- Detecting CXX compiler ABI info
+[4.382s] -- Detecting CXX compiler ABI info - done
+[4.474s] -- Detecting CXX compile features
+[4.478s] -- Detecting CXX compile features - done
+[4.492s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[4.623s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.625s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.667s] -- Configuring done
+[6.677s] -- Generating done
+[6.681s] -- Build files have been written to: /home/jetson/p4p/build/tm_moveit_config_tm12x
+[6.721s] Invoked command in '/home/jetson/p4p/build/tm_moveit_config_tm12x' returned '0': AMENT_PREFIX_PATH=/home/jetson/p4p/install/tm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/p4p/install/tm_description:/opt/ros/foxy /usr/bin/cmake /home/jetson/p4p/tmr_ros2/tm_moveit_config_tm12x -DCMAKE_INSTALL_PREFIX=/home/jetson/p4p/install/tm_moveit_config_tm12x
+[6.740s] Invoking command in '/home/jetson/p4p/build/tm_moveit_config_tm12x': AMENT_PREFIX_PATH=/home/jetson/p4p/install/tm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/p4p/install/tm_description:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/p4p/build/tm_moveit_config_tm12x -- -j4 -l4
+[7.174s] Invoked command in '/home/jetson/p4p/build/tm_moveit_config_tm12x' returned '0': AMENT_PREFIX_PATH=/home/jetson/p4p/install/tm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/p4p/install/tm_description:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/p4p/build/tm_moveit_config_tm12x -- -j4 -l4
+[7.485s] Invoking command in '/home/jetson/p4p/build/tm_moveit_config_tm12x': AMENT_PREFIX_PATH=/home/jetson/p4p/install/tm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/p4p/install/tm_description:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/p4p/build/tm_moveit_config_tm12x
+[7.572s] -- Install configuration: ""
+[7.573s] -- Installing: /home/jetson/p4p/install/tm_moveit_config_tm12x/share/ament_index/resource_index/package_run_dependencies/tm_moveit_config_tm12x
+[7.575s] -- Installing: /home/jetson/p4p/install/tm_moveit_config_tm12x/share/ament_index/resource_index/parent_prefix_path/tm_moveit_config_tm12x
+[7.576s] -- Installing: /home/jetson/p4p/install/tm_moveit_config_tm12x/share/tm_moveit_config_tm12x/environment/ament_prefix_path.sh
+[7.587s] -- Installing: /home/jetson/p4p/install/tm_moveit_config_tm12x/share/tm_moveit_config_tm12x/environment/ament_prefix_path.dsv
+[7.588s] -- Installing: /home/jetson/p4p/install/tm_moveit_config_tm12x/share/tm_moveit_config_tm12x/environment/path.sh
+[7.589s] -- Installing: /home/jetson/p4p/install/tm_moveit_config_tm12x/share/tm_moveit_config_tm12x/environment/path.dsv
+[7.590s] -- Installing: /home/jetson/p4p/install/tm_moveit_config_tm12x/share/tm_moveit_config_tm12x/local_setup.bash
+[7.591s] -- Installing: /home/jetson/p4p/install/tm_moveit_config_tm12x/share/tm_moveit_config_tm12x/local_setup.sh
+[7.592s] -- Installing: /home/jetson/p4p/install/tm_moveit_config_tm12x/share/tm_moveit_config_tm12x/local_setup.zsh
+[7.593s] -- Installing: /home/jetson/p4p/install/tm_moveit_config_tm12x/share/tm_moveit_config_tm12x/local_setup.dsv
+[7.594s] -- Installing: /home/jetson/p4p/install/tm_moveit_config_tm12x/share/tm_moveit_config_tm12x/package.dsv
+[7.595s] -- Installing: /home/jetson/p4p/install/tm_moveit_config_tm12x/share/ament_index/resource_index/packages/tm_moveit_config_tm12x
+[7.596s] -- Installing: /home/jetson/p4p/install/tm_moveit_config_tm12x/share/tm_moveit_config_tm12x/cmake/tm_moveit_config_tm12xConfig.cmake
+[7.597s] -- Installing: /home/jetson/p4p/install/tm_moveit_config_tm12x/share/tm_moveit_config_tm12x/cmake/tm_moveit_config_tm12xConfig-version.cmake
+[7.598s] -- Installing: /home/jetson/p4p/install/tm_moveit_config_tm12x/share/tm_moveit_config_tm12x/package.xml
+[7.611s] -- Installing: /home/jetson/p4p/install/tm_moveit_config_tm12x/share/tm_moveit_config_tm12x/config
+[7.612s] -- Installing: /home/jetson/p4p/install/tm_moveit_config_tm12x/share/tm_moveit_config_tm12x/config/chomp_planning.yaml
+[7.613s] -- Installing: /home/jetson/p4p/install/tm_moveit_config_tm12x/share/tm_moveit_config_tm12x/config/joint_limits.yaml
+[7.614s] -- Installing: /home/jetson/p4p/install/tm_moveit_config_tm12x/share/tm_moveit_config_tm12x/config/ros_controllers.yaml
+[7.615s] -- Installing: /home/jetson/p4p/install/tm_moveit_config_tm12x/share/tm_moveit_config_tm12x/config/stomp_planning.yaml
+[7.618s] -- Installing: /home/jetson/p4p/install/tm_moveit_config_tm12x/share/tm_moveit_config_tm12x/config/fake_controllers.yaml
+[7.619s] -- Installing: /home/jetson/p4p/install/tm_moveit_config_tm12x/share/tm_moveit_config_tm12x/config/ompl_planning.yaml
+[7.619s] -- Installing: /home/jetson/p4p/install/tm_moveit_config_tm12x/share/tm_moveit_config_tm12x/config/kinematics.yaml
+[7.619s] -- Installing: /home/jetson/p4p/install/tm_moveit_config_tm12x/share/tm_moveit_config_tm12x/config/tm12x.srdf
+[7.620s] -- Installing: /home/jetson/p4p/install/tm_moveit_config_tm12x/share/tm_moveit_config_tm12x/config/sensors_3d.yaml
+[7.638s] Invoked command in '/home/jetson/p4p/build/tm_moveit_config_tm12x' returned '0': AMENT_PREFIX_PATH=/home/jetson/p4p/install/tm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/p4p/install/tm_description:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/p4p/build/tm_moveit_config_tm12x
