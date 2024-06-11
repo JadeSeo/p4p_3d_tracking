@@ -1,3 +1,9 @@
 [submodule "tmr_ros2"]
 	path = tmr_ros2
 	url = https://github.com/TechmanRobotInc/tmr_ros2.git
+[submodule "ikfast_pybind"]
+	path = ikfast_pybind
+	url = https://github.com/yijiangh/ikfast_pybind.git
+[submodule "pybullet-planning"]
+	path = pybullet-planning
+	url = https://github.com/caelan/pybullet-planning.git
